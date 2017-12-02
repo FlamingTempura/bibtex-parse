@@ -1,7 +1,8 @@
 {
   "name": "bibtex-parse",
-  "version": "0.1.6",
+  "version": "0.2.0",
   "description": "bibtex parser for javascript",
+  "homepage": "https://github.com/FlamingTempura/bibtex-parse",
   "main": "bibtex-parse.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
