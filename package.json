@@ -1,6 +1,6 @@
 {
   "name": "bibtex-parse",
-  "version": "0.1.3",
+  "version": "0.1.6",
   "description": "bibtex parser for javascript",
   "main": "bibtex-parse.js",
   "scripts": {
