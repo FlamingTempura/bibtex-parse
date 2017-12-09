@@ -30,7 +30,7 @@ property "property"
 	= _* key:key _* '=' _* val:value _* { return { [key.toLowerCase()]: val }; }
 	
 key "key"
-	= letters:[a-zA-Z:-]+ { return letters.join(''); }
+	= letters:[a-zA-Z:_-]+ { return letters.join(''); }
 
 value "value"
 	= '{' value:braced '}' { return { value, brace: 'curly' }; }
