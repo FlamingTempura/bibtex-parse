@@ -12,15 +12,12 @@ start
 	}
 	
 entry "entry"
-	= comments:comment* _* '@' type:key _* '{' _* id:id _* ',' properties:properties ','? _* '}' _* ','? _*
+	= comments:comment* _* '@' type:key _* '{' _* id:key _* ',' properties:properties ','? _* '}' _* ','? _*
 	  { return [{ type: type.toLowerCase(), id, properties, comments }]; }
 
 preamble "preamble"
 	= _* '@preamble'i _* '{' _* value:value _* '}' _* ','? _*
       { return value; }
-	
-id "id"
-	= str:[-:+*/!@%^&=.a-zA-Z0-9_]+ { return str.join(''); }
 
 properties "properties"
 	= head:property ',' tail:properties { return Object.assign(head, tail); }
@@ -30,7 +27,7 @@ property "property"
 	= _* key:key _* '=' _* val:value _* { return { [key.toLowerCase()]: val }; }
 	
 key "key"
-	= letters:[a-zA-Z:_-]+ { return letters.join(''); }
+	= letters:[^= \n\t\r,{}\[\]]+ { return letters.join(''); }
 
 value "value"
 	= '{' value:braced '}' { return { value, brace: 'curly' }; }
