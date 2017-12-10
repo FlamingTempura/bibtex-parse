@@ -2,7 +2,7 @@ start
 	= commentsBefore:comment*
 	  preamble:preamble?
 	  entries:entry*
-	  commentsAfter:comment* {
+	  commentsAfter:comment* _* {
 		return {
 			commentsBefore,
 			preamble: preamble,
