@@ -1,6 +1,6 @@
 /* jshint esversion: 6 */
 const { test } = require('tap');
-const { parse } = require('.');
+const { parse } = require('..');
 
 test('parse', t => {
 	t.plan(1);
