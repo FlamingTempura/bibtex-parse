@@ -19,6 +19,7 @@ test('parse', t => {
 	}@conference_at{4,
 	  a__="{Caroline JA Smith}",
 	  _#bo={Q{Uantum} {s}omethings},
+	  key with spaces = thing,
 	}
 	% last thing
 	% another last thing
@@ -53,7 +54,8 @@ test('parse', t => {
 				id: '4',
 				properties: {
 					a__: { value: '{Caroline JA Smith}', brace: 'quote' },
-					'_#bo': { value: 'Q{Uantum} {s}omethings', brace: 'curly' }
+					'_#bo': { value: 'Q{Uantum} {s}omethings', brace: 'curly' },
+					'key with spaces': { value: 'thing', brace: 'none' }
 				},
 				comments: []
 			}
@@ -81,3 +83,12 @@ test('error', t => {
 		t.equal(e.location.start.column, 3);
 	}
 });
+
+
+/*
+TODO
+
+@comment{jabref-meta: groupsversion:3;} % zotero export
+@article{zotero-null-62
+},
+*/

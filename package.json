@@ -5,7 +5,7 @@
   "homepage": "https://github.com/FlamingTempura/bibtex-parse",
   "main": "bibtex-parse.js",
   "scripts": {
-    "test": "tap tests.js",
+    "test": "rollup -c && tap tests.js",
     "cover": "tap -j6 --cov --coverage-report=lcov tests.js",
     "build": "rollup -c"
   },
