@@ -49,4 +49,4 @@ comment "comment"
 	= _* '%' comment:[^\r\n]* lineend { return comment.join(''); }
 
 lineend "end of line"
-  = '\n' / '\r\n' / '\r' / '\u2028' / '\u2029'
+  = '\n' / '\r\n' / '\r' / '\u2028' / '\u2029' / !. // !. is end of file

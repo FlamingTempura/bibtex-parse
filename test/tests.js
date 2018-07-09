@@ -22,8 +22,7 @@ test('parse', t => {
 	  key with spaces = thing,
 	}
 	% last thing
-	% another last thing
-	`);
+	% another last thing`);
 
 	let expected = {
 		commentsBefore: [' boo!'],

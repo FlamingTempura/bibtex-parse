@@ -218,6 +218,7 @@
 	        peg$c62 = peg$literalExpectation("\u2028", false),
 	        peg$c63 = "\u2029",
 	        peg$c64 = peg$literalExpectation("\u2029", false),
+	        peg$c65 = peg$anyExpectation(),
 
 	        peg$currPos          = 0,
 	        peg$posDetailsCache  = [{ line: 1, column: 1 }],
@@ -241,6 +242,10 @@
 
 	    function peg$classExpectation(parts, inverted, ignoreCase) {
 	      return { type: "class", parts: parts, inverted: inverted, ignoreCase: ignoreCase };
+	    }
+
+	    function peg$anyExpectation() {
+	      return { type: "any" };
 	    }
 
 	    function peg$endExpectation() {
@@ -1242,7 +1247,7 @@
 	    }
 
 	    function peg$parselineend() {
-	      var s0;
+	      var s0, s1;
 
 	      peg$silentFails++;
 	      if (input.charCodeAt(peg$currPos) === 10) {
@@ -1284,12 +1289,31 @@
 	                s0 = peg$FAILED;
 	                if (peg$silentFails === 0) { peg$fail(peg$c64); }
 	              }
+	              if (s0 === peg$FAILED) {
+	                s0 = peg$currPos;
+	                peg$silentFails++;
+	                if (input.length > peg$currPos) {
+	                  s1 = input.charAt(peg$currPos);
+	                  peg$currPos++;
+	                } else {
+	                  s1 = peg$FAILED;
+	                  if (peg$silentFails === 0) { peg$fail(peg$c65); }
+	                }
+	                peg$silentFails--;
+	                if (s1 === peg$FAILED) {
+	                  s0 = void 0;
+	                } else {
+	                  peg$currPos = s0;
+	                  s0 = peg$FAILED;
+	                }
+	              }
 	            }
 	          }
 	        }
 	      }
 	      peg$silentFails--;
 	      if (s0 === peg$FAILED) {
+	        s1 = peg$FAILED;
 	        if (peg$silentFails === 0) { peg$fail(peg$c54); }
 	      }
 
