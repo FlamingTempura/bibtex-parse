@@ -1,0 +1,155 @@
+[
+	{
+		"type": "string",
+		"key": "maintainer",
+		"value": {
+			"value": "Xavier D\\'ecoret",
+			"enclosed": "quote"
+		}
+	},
+	{
+		"type": "comment",
+		"comment": "\n\n"
+	},
+	{
+		"type": "preamble",
+		"preamble": {
+			"value": "\"Maintained by \" # maintainer",
+			"enclosed": null
+		}
+	},
+	{
+		"type": "comment",
+		"comment": "\n\n"
+	},
+	{
+		"type": "string",
+		"key": "mar",
+		"value": {
+			"value": "march",
+			"enclosed": "quote"
+		}
+	},
+	{
+		"type": "comment",
+		"comment": "\n      \n"
+	},
+	{
+		"type": "book",
+		"id": "sweig42",
+		"properties": {
+			"author": {
+				"value": " Stefan Sweig ",
+				"enclosed": "curly"
+			},
+			"title": {
+				"value": " The impossible book ",
+				"enclosed": "curly"
+			},
+			"publisher": {
+				"value": " Dead Poet Society",
+				"enclosed": "curly"
+			},
+			"year": {
+				"value": 1942,
+				"enclosed": null
+			},
+			"month": {
+				"value": "mar",
+				"enclosed": null
+			}
+		}
+	},
+	{
+		"type": "comment",
+		"comment": "\n\n...and finally an entry commented by the use of the special @Comment entry type.\n\n@Comment{steward03,\n  author =\t {Martha Steward},\n  title =\t {Cooking behind bars},\n  publisher =\t {Culinary Expert Series},\n  year =\t 2003\n}\n\n% boo!\n\t"
+	},
+	{
+		"type": "article",
+		"id": "thing_a",
+		"properties": {
+			"title": {
+				"value": "blah",
+				"enclosed": "curly"
+			},
+			"weird-key": {
+				"value": "{cheese} \\\\\"in brie\\\\\"",
+				"enclosed": "quote"
+			}
+		}
+	},
+	{
+		"type": "comment",
+		"comment": "\n\t% another comment\n\t"
+	},
+	{
+		"type": "inproceedings",
+		"id": "Smith2009",
+		"properties": {
+			"author": {
+				"value": "Caroline JA Smith",
+				"enclosed": "quote"
+			},
+			"year": {
+				"value": 2009,
+				"enclosed": null
+			},
+			"month": {
+				"value": "dec",
+				"enclosed": null
+			},
+			"title": {
+				"value": "{Quantum somethings}",
+				"enclosed": "curly"
+			},
+			"journal": {
+				"value": "Journal of {B}lah",
+				"enclosed": "curly"
+			}
+		}
+	},
+	{
+		"type": "conference_at",
+		"id": "4",
+		"properties": {
+			"a__": {
+				"value": "{Caroline JA Smith}",
+				"enclosed": "quote"
+			},
+			"_#bo": {
+				"value": "Q{Uantum} {s}omethings",
+				"enclosed": "curly"
+			},
+			"key with spaces": {
+				"value": "thing",
+				"enclosed": null
+			}
+		}
+	},
+	{
+		"type": "comment",
+		"comment": "\n\t% last thing\n\t% another last thing\n\nSome {{comments} with unbalanced braces\n....and a \"commented\" entry...\n\nBook{landru21,\n  author =\t {Landru, Henri D\\\\'esir\\\\'e},\n  title =\t {A hundred recipes for you wife},\n  publisher =\t {Culinary Expert Series},\n  year =\t 1921\n}\n\n..some other comments..before a valid entry...\n\n"
+	},
+	{
+		"type": "book",
+		"id": "steward03",
+		"properties": {
+			"author": {
+				"value": " Martha Steward ",
+				"enclosed": "curly"
+			},
+			"title": {
+				"value": "Cooking behind bars",
+				"enclosed": "curly"
+			},
+			"publisher": {
+				"value": "Culinary Expert Series",
+				"enclosed": "curly"
+			},
+			"year": {
+				"value": 2003,
+				"enclosed": null
+			}
+		}
+	}
+]
