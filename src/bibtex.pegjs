@@ -2,10 +2,10 @@ start
 	= _* items:item* _* { return items; }
 
 item "item"
-	= preamble:preamble { return { type: 'preamble', preamble }; }
+	= preamble:preamble { return { type: 'preamble', ...preamble }; }
     / entry:entry { return { ...entry }; }
     / content:string { return { type: 'string', ...content }; }
-    / comments:comment+ { return { type: 'comment', comment:comments.join('') }; }
+    / comments:comment+ { return { type: 'comment', comment: comments.join('') }; }
 
 comment "comment"
 	= comment:[^@]+ { return comment.join(''); } // any text outside of an entry is interpreted as a comment, but it must not contain an @
@@ -13,8 +13,11 @@ comment "comment"
     / '@comment'i { return text(); } // @comment on it's own is allowed
     
 string "string"
-    = '@string'i _* '(' _* key:key _* '=' _* value:value _* ')' { return { key, value }; }
-    / '@string'i _* '{' _* key:key _* '=' _* value:value _* '}' { return { key, value }; }
+    = '@string'i _* '(' keyval:assignment ')' { return keyval; }
+    / '@string'i _* '{' keyval:assignment '}' { return keyval; }
+
+assignment "assignment"
+	= _* key:key _* '=' _* value:value _* { return { key, value, raw: text() }; }
 
 preamble "preamble"
 	= '@preamble'i _* '(' value:value ')' { return value; }
@@ -35,17 +38,17 @@ key "key"
 	= letters:[^=\n\t\r,{}\[\]]+ { return letters.join('').trim(); }
 
 value "value"
-	= '{' value:braced '}' { return { value, enclosed: 'curly' }; }
-    / values:concatinate { return values.length === 1 ? values[0] : { concatinate: values }; }
+	= '{' value:braced '}' { return { value, enclosed: 'curly', raw: text() }; }
+    / values:concatinate { return values.length === 1 ? values[0] : { concatinate: values, raw: text() }; }
 
 concatinate
 	= left:literal _* "#" _* right:concatinate { return [left].concat(right); }
 	/ left:literal { return [left]; }
 
 literal
-	= '"' value:quoted* '"' { return { value: value.join(''), enclosed: 'quote' }; }
-	/ value:[0-9]+ { return { value: Number(value.join('')), enclosed: null }; }
-	/ value:key { return { value, enclosed: null }; }
+	= '"' value:quoted* '"' { return { value: value.join(''), enclosed: 'quote', raw: text() }; }
+	/ value:[0-9]+ { return { value: Number(value.join('')), enclosed: null, raw: text() }; }
+	/ value:key { return { value, enclosed: null, raw: text() }; }
 
 integer "integer"
   = digits:[0-9]+ { return parseInt(digits.join(""), 10); }
