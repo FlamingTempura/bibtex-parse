@@ -1,6 +1,6 @@
 {
   "name": "bibtex-parse",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "bibtex parser for javascript",
   "homepage": "https://github.com/FlamingTempura/bibtex-parse",
   "main": "bibtex-parse.js",
