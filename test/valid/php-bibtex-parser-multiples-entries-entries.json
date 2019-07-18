@@ -1,0 +1,12 @@
+[
+	{
+		"key": null,
+		"type": "entryfoowithspaces",
+		"FOO": ""
+	},
+	{
+		"key": null,
+		"type": "entrybarwithoutspaces",
+		"BAR": ""
+	}
+]

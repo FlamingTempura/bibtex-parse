@@ -1,0 +1,10 @@
+[
+	{
+		"key": "key",
+		"type": "article",
+		"AUTHOR": "Author",
+		"TITLE": "Title",
+		"YEAR": 1990,
+		"JOURNAL": "a space between this and this"
+	}
+]

@@ -1,0 +1,21 @@
+[
+	{
+		"itemtype": "entry",
+		"type": "tagnamewithunderscore",
+		"enclosed": "braces",
+		"key": null,
+		"fields": [
+			{
+				"name": "foo_bar",
+				"value": "fubar",
+				"datatype": "identifier",
+				"raw": "fubar"
+			}
+		],
+		"raw": "@tagNameWithUnderscore {\n    foo_bar = fubar\n}"
+	},
+	{
+		"itemtype": "comment",
+		"comment": "\n"
+	}
+]

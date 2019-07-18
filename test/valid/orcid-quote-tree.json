@@ -1,0 +1,27 @@
+[
+	{
+		"itemtype": "comment",
+		"comment": "\n  "
+	},
+	{
+		"itemtype": "entry",
+		"type": "article",
+		"enclosed": "braces",
+		"key": "sample1",
+		"fields": [
+			{
+				"name": "title",
+				"value": "sample \\\"Quote\\\" title",
+				"datatype": "braced",
+				"raw": "{sample \\\"Quote\\\" title}"
+			},
+			{
+				"name": "name",
+				"value": "sample \"Quote\" title\"",
+				"datatype": "braced",
+				"raw": "{sample \"Quote\" title\"}"
+			}
+		],
+		"raw": "@article{sample1,\n     title={sample \\\"Quote\\\" title},\n     name={sample \"Quote\" title\"}\n  }"
+	}
+]

@@ -1,0 +1,57 @@
+[
+	{
+		"itemtype": "entry",
+		"type": "article",
+		"enclosed": "braces",
+		"key": "Abu-Zeid_1986",
+		"fields": [
+			{
+				"name": "Title",
+				"value": "Determination of the Thickness and Refractive Index of {Cu$_2$O} Thin Film Using Thermal and Optical\nInterferometry",
+				"datatype": "braced",
+				"raw": "{Determination of the Thickness and Refractive Index of {Cu$_2$O} Thin Film Using Thermal and Optical\nInterferometry}"
+			},
+			{
+				"name": "Author",
+				"value": "Abu-Zeid, M. E. and Rakhshani, A. E. and Al-Jassar, A. A. and Youssef, Y. A.",
+				"datatype": "braced",
+				"raw": "{Abu-Zeid, M. E. and Rakhshani, A. E. and Al-Jassar, A. A. and Youssef, Y. A.}"
+			},
+			{
+				"name": "Journal",
+				"value": "Physica Status Solidi (a)",
+				"datatype": "braced",
+				"raw": "{Physica Status Solidi (a)}"
+			},
+			{
+				"name": "Year",
+				"value": "1986",
+				"datatype": "braced",
+				"raw": "{1986}"
+			},
+			{
+				"name": "Pages",
+				"value": "613--620",
+				"datatype": "braced",
+				"raw": "{613--620}"
+			},
+			{
+				"name": "Volume",
+				"value": "93",
+				"datatype": "braced",
+				"raw": "{93}"
+			},
+			{
+				"name": "Doi",
+				"value": "10.1002/pssa.2210930226",
+				"datatype": "braced",
+				"raw": "{10.1002/pssa.2210930226}"
+			}
+		],
+		"raw": "@Article{Abu-Zeid_1986,\nTitle = {Determination of the Thickness and Refractive Index of {Cu$_2$O} Thin Film Using Thermal and Optical\nInterferometry},\nAuthor = {Abu-Zeid, M. E. and Rakhshani, A. E. and Al-Jassar, A. A. and Youssef, Y. A.},\nJournal = {Physica Status Solidi (a)},\nYear = {1986},\nPages = {613--620},\nVolume = {93},\nDoi = {10.1002/pssa.2210930226}\n}"
+	},
+	{
+		"itemtype": "comment",
+		"comment": "\n"
+	}
+]

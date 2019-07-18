@@ -1,0 +1,39 @@
+[
+	{
+		"itemtype": "entry",
+		"type": "misc",
+		"enclosed": "braces",
+		"key": "feder2006",
+		"fields": [
+			{
+				"name": "title",
+				"value": "BibTeX",
+				"datatype": "braced",
+				"raw": "{BibTeX}"
+			},
+			{
+				"name": "author",
+				"value": "Alexander Feder",
+				"datatype": "braced",
+				"raw": "{Alexander Feder}"
+			},
+			{
+				"name": "link",
+				"value": "http://bibtex.org",
+				"datatype": "braced",
+				"raw": "{http://bibtex.org}"
+			},
+			{
+				"name": "year",
+				"value": "2006",
+				"datatype": "braced",
+				"raw": "{2006}"
+			}
+		],
+		"raw": "@misc{feder2006,\n title = {BibTeX},\n author = {Alexander Feder},\n link = {http://bibtex.org},\n year = {2006}\n}"
+	},
+	{
+		"itemtype": "comment",
+		"comment": "\n"
+	}
+]

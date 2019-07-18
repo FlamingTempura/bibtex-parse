@@ -1,0 +1,15 @@
+[
+	{
+		"key": "name",
+		"type": "article",
+		"YEAR": 2016,
+		"TITLE": "SessionBasedBlah"
+	},
+	{
+		"key": "ng2014",
+		"type": "inproceedings",
+		"TITLE": "Blah",
+		"AUTHOR": "Me",
+		"BOOKTITLE": "ABCD2014"
+	}
+]

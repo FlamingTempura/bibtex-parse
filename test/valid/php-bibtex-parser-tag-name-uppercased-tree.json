@@ -1,0 +1,21 @@
+[
+	{
+		"itemtype": "entry",
+		"type": "tagnameuppercased",
+		"enclosed": "braces",
+		"key": null,
+		"fields": [
+			{
+				"name": "FoO",
+				"value": "bAr",
+				"datatype": "identifier",
+				"raw": "bAr"
+			}
+		],
+		"raw": "@tagNameUppercased {\n    FoO = bAr\n}"
+	},
+	{
+		"itemtype": "comment",
+		"comment": "\n"
+	}
+]

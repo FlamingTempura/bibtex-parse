@@ -1,0 +1,69 @@
+[
+	{
+		"itemtype": "entry",
+		"type": "techreport",
+		"enclosed": "braces",
+		"key": "Abbott-2007-aa",
+		"fields": [
+			{
+				"name": "Address",
+				"value": "Brussels, Belgium",
+				"datatype": "braced",
+				"raw": "{Brussels, Belgium}"
+			},
+			{
+				"name": "Author",
+				"value": "Abbott, Roderick",
+				"datatype": "braced",
+				"raw": "{Abbott, Roderick}"
+			},
+			{
+				"name": "Class",
+				"value": "States & Markets 2009, Diss Tax & Democracy 2010ff",
+				"datatype": "braced",
+				"raw": "{States & Markets 2009, Diss Tax & Democracy 2010ff}"
+			},
+			{
+				"name": "Date-Modified",
+				"value": "2014-06-14 15:13:01 +0000",
+				"datatype": "braced",
+				"raw": "{2014-06-14 15:13:01 +0000}"
+			},
+			{
+				"name": "Institution",
+				"value": "European Center for International Political Economy",
+				"datatype": "braced",
+				"raw": "{European Center for International Political Economy}"
+			},
+			{
+				"name": "Keywords",
+				"value": "Political Economy,Finance, Markets",
+				"datatype": "braced",
+				"raw": "{Political Economy,Finance, Markets}"
+			},
+			{
+				"name": "Title",
+				"value": "Are Developing Countries Deterred from Using the WTO Dispute Settlement System? - Participation of Developing Countries in the DSM in the years 1995-2005",
+				"datatype": "braced",
+				"raw": "{Are Developing Countries Deterred from Using the WTO Dispute Settlement System? - Participation of Developing Countries in the DSM in the years 1995-2005}"
+			},
+			{
+				"name": "Year",
+				"value": "2007",
+				"datatype": "braced",
+				"raw": "{2007}"
+			},
+			{
+				"name": "Local-Zo-Url-1",
+				"value": "./attachments/1.pdf",
+				"datatype": "braced",
+				"raw": "{./attachments/1.pdf}"
+			}
+		],
+		"raw": "@techreport{Abbott-2007-aa,\n  Address = {Brussels, Belgium},\n  Author = {Abbott, Roderick},\n  Class = {States & Markets 2009, Diss Tax & Democracy 2010ff},\n  Date-Modified = {2014-06-14 15:13:01 +0000},\n  Institution = {European Center for International Political Economy},\n  Keywords = {Political Economy,Finance, Markets},\n  Title = {Are Developing Countries Deterred from Using the WTO Dispute Settlement System? - Participation of Developing Countries in the DSM in the years 1995-2005},\n  Year = {2007},\n  Local-Zo-Url-1 = {./attachments/1.pdf}\n}"
+	},
+	{
+		"itemtype": "comment",
+		"comment": "\n"
+	}
+]

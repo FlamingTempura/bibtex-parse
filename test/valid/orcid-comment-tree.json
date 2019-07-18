@@ -1,0 +1,17 @@
+[
+	{
+		"itemtype": "comment",
+		"comment": "\n\t"
+	},
+	{
+		"itemtype": "preamble",
+		"enclosed": "braces",
+		"value": "\\newcommand{\\noopsort}[1]{}",
+		"datatype": "quoted",
+		"raw": "\"\\newcommand{\\noopsort}[1]{}\""
+	},
+	{
+		"itemtype": "comment",
+		"comment": "\n\n\t@COMMENT{\"\\nslkdjflksdjflkdsjf\"}\n\n\t% test\n"
+	}
+]

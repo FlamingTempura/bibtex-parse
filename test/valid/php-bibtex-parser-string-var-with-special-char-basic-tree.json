@@ -1,0 +1,43 @@
+[
+	{
+		"itemtype": "string",
+		"name": "foo-bar",
+		"value": "world",
+		"datatype": "quoted",
+		"raw": "\"world\""
+	},
+	{
+		"itemtype": "comment",
+		"comment": "\n"
+	},
+	{
+		"itemtype": "entry",
+		"type": "misc",
+		"enclosed": "braces",
+		"key": null,
+		"fields": [
+			{
+				"name": "author",
+				"value": [
+					{
+						"value": "Hello ",
+						"datatype": "quoted",
+						"raw": "\"Hello \""
+					},
+					{
+						"value": "foo-bar",
+						"datatype": "identifier",
+						"raw": "foo-bar"
+					}
+				],
+				"datatype": "concatinate",
+				"raw": "\"Hello \" # foo-bar"
+			}
+		],
+		"raw": "@misc{ author = \"Hello \" # foo-bar }"
+	},
+	{
+		"itemtype": "comment",
+		"comment": "\n"
+	}
+]

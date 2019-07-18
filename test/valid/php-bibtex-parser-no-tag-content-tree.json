@@ -1,0 +1,21 @@
+[
+	{
+		"itemtype": "entry",
+		"type": "notagcontent",
+		"enclosed": "braces",
+		"key": "foo",
+		"fields": [
+			{
+				"name": "bar",
+				"value": null,
+				"datatype": "null",
+				"raw": ""
+			}
+		],
+		"raw": "@noTagContent {\n    foo,\n    bar\n}"
+	},
+	{
+		"itemtype": "comment",
+		"comment": "\n"
+	}
+]

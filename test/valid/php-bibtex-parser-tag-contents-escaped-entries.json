@@ -1,0 +1,8 @@
+[
+	{
+		"key": null,
+		"type": "valuesescaped",
+		"BRACED": "the } \" \\\\ % braced",
+		"QUOTED": "the } \" \\\\ % quoted"
+	}
+]

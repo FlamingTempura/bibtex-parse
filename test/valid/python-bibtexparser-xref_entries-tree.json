@@ -1,0 +1,302 @@
+[
+	{
+		"itemtype": "comment",
+		"comment": "% From biber test data : t/tdata/crossrefs.bib\n% Kept initial comment but not for our purpose\n\n% Testing mincrossrefs. xr1 and xr2 xrefs should trigger inclusion of xrm and also\n% the xreffields in both of them\n"
+	},
+	{
+		"itemtype": "entry",
+		"type": "inbook",
+		"enclosed": "braces",
+		"key": "xr1",
+		"fields": [
+			{
+				"name": "AUTHOR",
+				"value": "Zoe Zentrum",
+				"datatype": "braced",
+				"raw": "{Zoe Zentrum}"
+			},
+			{
+				"name": "TITLE",
+				"value": "Moods Mildly Modified",
+				"datatype": "braced",
+				"raw": "{Moods Mildly Modified}"
+			},
+			{
+				"name": "ORIGDATE",
+				"value": "1921",
+				"datatype": "braced",
+				"raw": "{1921}"
+			},
+			{
+				"name": "XREF",
+				"value": "xrm",
+				"datatype": "braced",
+				"raw": "{xrm}"
+			}
+		],
+		"raw": "@INBOOK{xr1,\n  AUTHOR    = {Zoe Zentrum},\n  TITLE     = {Moods Mildly Modified},\n  ORIGDATE  = {1921},\n  XREF      = {xrm}\n}"
+	},
+	{
+		"itemtype": "comment",
+		"comment": "\n\n"
+	},
+	{
+		"itemtype": "entry",
+		"type": "inbook",
+		"enclosed": "braces",
+		"key": "xr2",
+		"fields": [
+			{
+				"name": "AUTHOR",
+				"value": "Ian Instant",
+				"datatype": "braced",
+				"raw": "{Ian Instant}"
+			},
+			{
+				"name": "TITLE",
+				"value": "Migraines Multiplying Madly",
+				"datatype": "braced",
+				"raw": "{Migraines Multiplying Madly}"
+			},
+			{
+				"name": "ORIGDATE",
+				"value": "1926",
+				"datatype": "braced",
+				"raw": "{1926}"
+			},
+			{
+				"name": "XREF",
+				"value": "xrm",
+				"datatype": "braced",
+				"raw": "{xrm}"
+			}
+		],
+		"raw": "@INBOOK{xr2,\n  AUTHOR    = {Ian Instant},\n  TITLE     = {Migraines Multiplying Madly},\n  ORIGDATE  = {1926},\n  XREF      = {xrm}\n}"
+	},
+	{
+		"itemtype": "comment",
+		"comment": "\n\n"
+	},
+	{
+		"itemtype": "entry",
+		"type": "book",
+		"enclosed": "braces",
+		"key": "xrm",
+		"fields": [
+			{
+				"name": "EDITOR",
+				"value": "Peter Prendergast",
+				"datatype": "braced",
+				"raw": "{Peter Prendergast}"
+			},
+			{
+				"name": "TITLE",
+				"value": "Calligraphy, Calisthenics, Culture",
+				"datatype": "braced",
+				"raw": "{Calligraphy, Calisthenics, Culture}"
+			},
+			{
+				"name": "PUBLISHER",
+				"value": "Mainstream",
+				"datatype": "braced",
+				"raw": "{Mainstream}"
+			},
+			{
+				"name": "YEAR",
+				"value": "1970",
+				"datatype": "braced",
+				"raw": "{1970}"
+			}
+		],
+		"raw": "@BOOK{xrm,\n  EDITOR    = {Peter Prendergast},\n  TITLE     = {Calligraphy, Calisthenics, Culture},\n  PUBLISHER = {Mainstream},\n  YEAR      = {1970}\n}"
+	},
+	{
+		"itemtype": "comment",
+		"comment": "\n\n% Testing explicit cite of xref parent. Should trigger inclusion of child xref field\n"
+	},
+	{
+		"itemtype": "entry",
+		"type": "inbook",
+		"enclosed": "braces",
+		"key": "xr3",
+		"fields": [
+			{
+				"name": "AUTHOR",
+				"value": "Norman Normal",
+				"datatype": "braced",
+				"raw": "{Norman Normal}"
+			},
+			{
+				"name": "TITLE",
+				"value": "Russian Regalia Revisited",
+				"datatype": "braced",
+				"raw": "{Russian Regalia Revisited}"
+			},
+			{
+				"name": "ORIGDATE",
+				"value": "1923",
+				"datatype": "braced",
+				"raw": "{1923}"
+			},
+			{
+				"name": "XREF",
+				"value": "xrt",
+				"datatype": "braced",
+				"raw": "{xrt}"
+			}
+		],
+		"raw": "@INBOOK{xr3,\n  AUTHOR    = {Norman Normal},\n  TITLE     = {Russian Regalia Revisited},\n  ORIGDATE  = {1923},\n  XREF      = {xrt}\n}"
+	},
+	{
+		"itemtype": "comment",
+		"comment": "\n\n"
+	},
+	{
+		"itemtype": "entry",
+		"type": "book",
+		"enclosed": "braces",
+		"key": "xrt",
+		"fields": [
+			{
+				"name": "EDITOR",
+				"value": "Lucy Lunders",
+				"datatype": "braced",
+				"raw": "{Lucy Lunders}"
+			},
+			{
+				"name": "TITLE",
+				"value": "Kings, Cork and Calculation",
+				"datatype": "braced",
+				"raw": "{Kings, Cork and Calculation}"
+			},
+			{
+				"name": "PUBLISHER",
+				"value": "Middling",
+				"datatype": "braced",
+				"raw": "{Middling}"
+			},
+			{
+				"name": "YEAR",
+				"value": "1977",
+				"datatype": "braced",
+				"raw": "{1977}"
+			}
+		],
+		"raw": "@BOOK{xrt,\n  EDITOR    = {Lucy Lunders},\n  TITLE     = {Kings, Cork and Calculation},\n  PUBLISHER = {Middling},\n  YEAR      = {1977}\n}"
+	},
+	{
+		"itemtype": "comment",
+		"comment": "\n\n% Testing mincrossrefs not reached. cr4 is cited, cr5 isn't, therefore mincrossrefs (2) for\n% crn not reached\n"
+	},
+	{
+		"itemtype": "entry",
+		"type": "inbook",
+		"enclosed": "braces",
+		"key": "xr4",
+		"fields": [
+			{
+				"name": "AUTHOR",
+				"value": "Megan Mistrel",
+				"datatype": "braced",
+				"raw": "{Megan Mistrel}"
+			},
+			{
+				"name": "TITLE",
+				"value": "Lumbering Lunatics",
+				"datatype": "braced",
+				"raw": "{Lumbering Lunatics}"
+			},
+			{
+				"name": "ORIGDATE",
+				"value": "1933",
+				"datatype": "braced",
+				"raw": "{1933}"
+			},
+			{
+				"name": "XREF",
+				"value": "xrn",
+				"datatype": "braced",
+				"raw": "{xrn}"
+			}
+		],
+		"raw": "@INBOOK{xr4,\n  AUTHOR    = {Megan Mistrel},\n  TITLE     = {Lumbering Lunatics},\n  ORIGDATE  = {1933},\n  XREF      = {xrn}\n}"
+	},
+	{
+		"itemtype": "comment",
+		"comment": "\n\n"
+	},
+	{
+		"itemtype": "entry",
+		"type": "inbook",
+		"enclosed": "braces",
+		"key": "xr5",
+		"fields": [
+			{
+				"name": "AUTHOR",
+				"value": "Kenneth Kunrath",
+				"datatype": "braced",
+				"raw": "{Kenneth Kunrath}"
+			},
+			{
+				"name": "TITLE",
+				"value": "Dreadful Dreary Days",
+				"datatype": "braced",
+				"raw": "{Dreadful Dreary Days}"
+			},
+			{
+				"name": "ORIGDATE",
+				"value": "1900",
+				"datatype": "braced",
+				"raw": "{1900}"
+			},
+			{
+				"name": "XREF",
+				"value": "xrn",
+				"datatype": "braced",
+				"raw": "{xrn}"
+			}
+		],
+		"raw": "@INBOOK{xr5,\n  AUTHOR    = {Kenneth Kunrath},\n  TITLE     = {Dreadful Dreary Days},\n  ORIGDATE  = {1900},\n  XREF      = {xrn}\n}"
+	},
+	{
+		"itemtype": "comment",
+		"comment": "\n\n"
+	},
+	{
+		"itemtype": "entry",
+		"type": "book",
+		"enclosed": "braces",
+		"key": "xrn",
+		"fields": [
+			{
+				"name": "EDITOR",
+				"value": "Victor Vivacious",
+				"datatype": "braced",
+				"raw": "{Victor Vivacious}"
+			},
+			{
+				"name": "TITLE",
+				"value": "Examples of Excellent Exaggerations",
+				"datatype": "braced",
+				"raw": "{Examples of Excellent Exaggerations}"
+			},
+			{
+				"name": "PUBLISHER",
+				"value": "Oxford",
+				"datatype": "braced",
+				"raw": "{Oxford}"
+			},
+			{
+				"name": "YEAR",
+				"value": "1935",
+				"datatype": "braced",
+				"raw": "{1935}"
+			}
+		],
+		"raw": "@BOOK{xrn,\n  EDITOR    = {Victor Vivacious},\n  TITLE     = {Examples of Excellent Exaggerations},\n  PUBLISHER = {Oxford},\n  YEAR      = {1935}\n}"
+	},
+	{
+		"itemtype": "comment",
+		"comment": "\n"
+	}
+]

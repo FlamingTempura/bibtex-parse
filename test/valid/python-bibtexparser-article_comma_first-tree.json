@@ -1,0 +1,112 @@
+[
+	{
+		"itemtype": "entry",
+		"type": "article",
+		"enclosed": "braces",
+		"key": "Cesar2013",
+		"fields": [
+			{
+				"name": "author",
+				"value": "Jean Cesar",
+				"datatype": "braced",
+				"raw": "{Jean Cesar}"
+			},
+			{
+				"name": "title",
+				"value": "An amazing title",
+				"datatype": "braced",
+				"raw": "{An amazing title}"
+			},
+			{
+				"name": "year",
+				"value": "2013",
+				"datatype": "braced",
+				"raw": "{2013}"
+			},
+			{
+				"name": "volume",
+				"value": "12",
+				"datatype": "braced",
+				"raw": "{12}"
+			},
+			{
+				"name": "journal",
+				"value": "Nice Journal",
+				"datatype": "braced",
+				"raw": "{Nice Journal}"
+			},
+			{
+				"name": "comments",
+				"value": "A comment",
+				"datatype": "braced",
+				"raw": "{A comment}"
+			},
+			{
+				"name": "keyword",
+				"value": "keyword1, keyword2",
+				"datatype": "braced",
+				"raw": "{keyword1, keyword2}"
+			}
+		],
+		"raw": "@ARTICLE{Cesar2013\n , author = {Jean Cesar}\n , title = {An amazing title}\n , year = {2013}\n , volume = {12}\n , journal = {Nice Journal}\n , comments = {A comment}\n , keyword = {keyword1, keyword2}\n}"
+	},
+	{
+		"itemtype": "comment",
+		"comment": "\n\n"
+	},
+	{
+		"itemtype": "entry",
+		"type": "article",
+		"enclosed": "braces",
+		"key": "Baltazar2013",
+		"fields": [
+			{
+				"name": "author",
+				"value": "Jean Baltazar",
+				"datatype": "braced",
+				"raw": "{Jean Baltazar}"
+			},
+			{
+				"name": "title",
+				"value": "An amazing title",
+				"datatype": "braced",
+				"raw": "{An amazing title}"
+			},
+			{
+				"name": "year",
+				"value": "2013",
+				"datatype": "braced",
+				"raw": "{2013}"
+			},
+			{
+				"name": "volume",
+				"value": "12",
+				"datatype": "braced",
+				"raw": "{12}"
+			},
+			{
+				"name": "journal",
+				"value": "Nice Journal",
+				"datatype": "braced",
+				"raw": "{Nice Journal}"
+			},
+			{
+				"name": "comments",
+				"value": "A comment",
+				"datatype": "braced",
+				"raw": "{A comment}"
+			},
+			{
+				"name": "keyword",
+				"value": "keyword1, keyword2",
+				"datatype": "braced",
+				"raw": "{keyword1, keyword2}"
+			}
+		],
+		"raw": "@ARTICLE{ Baltazar2013\n        , author = {Jean Baltazar}\n        , title = {An amazing title}\n        , year = {2013}\n        , volume = {12}\n        , journal = {Nice Journal}\n        , comments = {A comment}\n        , keyword = {keyword1, keyword2}}"
+	},
+	{
+		"itemtype": "comment",
+		"comment": "\n"
+	}
+]

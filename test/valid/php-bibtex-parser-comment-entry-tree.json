@@ -1,0 +1,6 @@
+[
+	{
+		"itemtype": "comment",
+		"comment": "this is a comment @comment{foo = bar} this is another comment\n"
+	}
+]

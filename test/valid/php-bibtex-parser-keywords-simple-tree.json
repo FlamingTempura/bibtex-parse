@@ -1,0 +1,21 @@
+[
+	{
+		"itemtype": "entry",
+		"type": "keywordssimple",
+		"enclosed": "braces",
+		"key": null,
+		"fields": [
+			{
+				"name": "keywords",
+				"value": "foo, bar",
+				"datatype": "quoted",
+				"raw": "\"foo, bar\""
+			}
+		],
+		"raw": "@keywordsSimple{\n    keywords = \"foo, bar\"\n}"
+	},
+	{
+		"itemtype": "comment",
+		"comment": "\n"
+	}
+]

@@ -1,0 +1,61 @@
+[
+	{
+		"itemtype": "string",
+		"name": "j",
+		"value": "a space between this ",
+		"datatype": "braced",
+		"raw": "{a space between this }"
+	},
+	{
+		"itemtype": "comment",
+		"comment": "\n"
+	},
+	{
+		"itemtype": "entry",
+		"type": "article",
+		"enclosed": "braces",
+		"key": "key",
+		"fields": [
+			{
+				"name": "author",
+				"value": "Author",
+				"datatype": "quoted",
+				"raw": "\"Author\""
+			},
+			{
+				"name": "title",
+				"value": "Title",
+				"datatype": "quoted",
+				"raw": "\"Title\""
+			},
+			{
+				"name": "year",
+				"value": 1990,
+				"datatype": "number",
+				"raw": "1990"
+			},
+			{
+				"name": "journal",
+				"value": [
+					{
+						"value": "j",
+						"datatype": "identifier",
+						"raw": "j"
+					},
+					{
+						"value": "and this",
+						"datatype": "quoted",
+						"raw": "\"and this\""
+					}
+				],
+				"datatype": "concatinate",
+				"raw": "j # \"and this\""
+			}
+		],
+		"raw": "@article{key,\n    author  = \"Author\",\n    title   = \"Title\",\n    year    = 1990,\n    journal = j # \"and this\"\n}"
+	},
+	{
+		"itemtype": "comment",
+		"comment": "\n"
+	}
+]

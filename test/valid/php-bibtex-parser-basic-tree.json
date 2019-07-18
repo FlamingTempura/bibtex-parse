@@ -1,0 +1,21 @@
+[
+	{
+		"itemtype": "entry",
+		"type": "basic",
+		"enclosed": "braces",
+		"key": null,
+		"fields": [
+			{
+				"name": "foo",
+				"value": "bar",
+				"datatype": "identifier",
+				"raw": "bar"
+			}
+		],
+		"raw": "@basic {\n    foo = bar\n}"
+	},
+	{
+		"itemtype": "comment",
+		"comment": "\n"
+	}
+]

@@ -1,0 +1,44 @@
+[
+	{
+		"itemtype": "comment",
+		"comment": "% comment #1 must be ignore\n "
+	},
+	{
+		"itemtype": "entry",
+		"type": "entryfoowithspaces",
+		"enclosed": "braces",
+		"key": null,
+		"fields": [
+			{
+				"name": "foo",
+				"value": "oof",
+				"datatype": "identifier",
+				"raw": "oof"
+			}
+		],
+		"raw": "@entryFooWithSpaces { foo = oof }"
+	},
+	{
+		"itemtype": "comment",
+		"comment": " % comment #2 must be ignore\n% comment #3 must be ignore\n"
+	},
+	{
+		"itemtype": "entry",
+		"type": "entrybarwithoutspaces",
+		"enclosed": "braces",
+		"key": null,
+		"fields": [
+			{
+				"name": "bar",
+				"value": "rab",
+				"datatype": "identifier",
+				"raw": "rab"
+			}
+		],
+		"raw": "@entryBarWithoutSpaces{bar=rab}"
+	},
+	{
+		"itemtype": "comment",
+		"comment": "% comment #4 must be ignore\n% comment #5 must be ignore\n"
+	}
+]

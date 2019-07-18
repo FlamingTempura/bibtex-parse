@@ -1,0 +1,106 @@
+[
+	{
+		"itemtype": "entry",
+		"type": "patent",
+		"enclosed": "braces",
+		"key": "laufenberg",
+		"fields": [
+			{
+				"name": "author",
+				"value": "Laufenberg, Xaver and Eynius, Dominique and Suelzle, Helmut\n                  and Usbeck, Stephan and Spaeth, Matthias and Neuser-Hoffmann,\n                  Miriam and Myrzik, Christian and Schmid, Manfred and Nietfeld,\n                  Franz and Thiel, Alexander and Braun, Harald and Ebner,\n                  Norbert",
+				"datatype": "braced",
+				"raw": "{Laufenberg, Xaver and Eynius, Dominique and Suelzle, Helmut\n                  and Usbeck, Stephan and Spaeth, Matthias and Neuser-Hoffmann,\n                  Miriam and Myrzik, Christian and Schmid, Manfred and Nietfeld,\n                  Franz and Thiel, Alexander and Braun, Harald and Ebner,\n                  Norbert}"
+			},
+			{
+				"name": "title",
+				"value": "Elektrische Einrichtung und Betriebsverfahren",
+				"datatype": "braced",
+				"raw": "{Elektrische Einrichtung und Betriebsverfahren}"
+			},
+			{
+				"name": "number",
+				"value": 1700367,
+				"datatype": "number",
+				"raw": "1700367"
+			},
+			{
+				"name": "date",
+				"value": "2006-09-13",
+				"datatype": "braced",
+				"raw": "{2006-09-13}"
+			},
+			{
+				"name": "holder",
+				"value": "{Robert Bosch GmbH} and {Daimler Chrysler AG} and {Bayerische\n                  Motoren Werke AG}",
+				"datatype": "braced",
+				"raw": "{{Robert Bosch GmbH} and {Daimler Chrysler AG} and {Bayerische\n                  Motoren Werke AG}}"
+			},
+			{
+				"name": "type",
+				"value": "patenteu",
+				"datatype": "braced",
+				"raw": "{patenteu}"
+			},
+			{
+				"name": "url",
+				"value": "http://v3.espacenet.com/textdoc?IDX=EP1700367",
+				"datatype": "braced",
+				"raw": "{http://v3.espacenet.com/textdoc?IDX=EP1700367}"
+			}
+		],
+		"raw": "@patent{laufenberg,\n  author       = {Laufenberg, Xaver and Eynius, Dominique and Suelzle, Helmut\n                  and Usbeck, Stephan and Spaeth, Matthias and Neuser-Hoffmann,\n                  Miriam and Myrzik, Christian and Schmid, Manfred and Nietfeld,\n                  Franz and Thiel, Alexander and Braun, Harald and Ebner,\n                  Norbert},\n  title        = {Elektrische Einrichtung und Betriebsverfahren},\n  number       = 1700367,\n  date         = {2006-09-13},\n  holder       = {{Robert Bosch GmbH} and {Daimler Chrysler AG} and {Bayerische\n                  Motoren Werke AG}},\n  type         = {patenteu},\n  url          = {http://v3.espacenet.com/textdoc?IDX=EP1700367},\n}"
+	},
+	{
+		"itemtype": "comment",
+		"comment": "\n\n"
+	},
+	{
+		"itemtype": "entry",
+		"type": "patent",
+		"enclosed": "braces",
+		"key": "sorace",
+		"fields": [
+			{
+				"name": "author",
+				"value": "Sorace, Ronald E. and Reinhardt, Victor S. and Vaughn, Steven\n                  A.",
+				"datatype": "braced",
+				"raw": "{Sorace, Ronald E. and Reinhardt, Victor S. and Vaughn, Steven\n                  A.}"
+			},
+			{
+				"name": "title",
+				"value": "High-Speed Digital-to-{RF} Converter",
+				"datatype": "braced",
+				"raw": "{High-Speed Digital-to-{RF} Converter}"
+			},
+			{
+				"name": "number",
+				"value": 5668842,
+				"datatype": "number",
+				"raw": "5668842"
+			},
+			{
+				"name": "date",
+				"value": "1997-09-16",
+				"datatype": "braced",
+				"raw": "{1997-09-16}"
+			},
+			{
+				"name": "holder",
+				"value": "{Hughes Aircraft Company}",
+				"datatype": "braced",
+				"raw": "{{Hughes Aircraft Company}}"
+			},
+			{
+				"name": "type",
+				"value": "patentus",
+				"datatype": "braced",
+				"raw": "{patentus}"
+			}
+		],
+		"raw": "@patent{sorace,\n  author       = {Sorace, Ronald E. and Reinhardt, Victor S. and Vaughn, Steven\n                  A.},\n  title        = {High-Speed Digital-to-{RF} Converter},\n  number       = 5668842,\n  date         = {1997-09-16},\n  holder       = {{Hughes Aircraft Company}},\n  type         = {patentus},\n}"
+	},
+	{
+		"itemtype": "comment",
+		"comment": "\n"
+	}
+]

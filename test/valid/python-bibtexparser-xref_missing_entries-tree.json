@@ -1,0 +1,43 @@
+[
+	{
+		"itemtype": "comment",
+		"comment": "% From biber test data : t/tdata/crossrefs.bib\n% Kept initial comment but not for our purpose\n\n% Testing missing xref\n"
+	},
+	{
+		"itemtype": "entry",
+		"type": "inbook",
+		"enclosed": "braces",
+		"key": "mxr",
+		"fields": [
+			{
+				"name": "AUTHOR",
+				"value": "Megan Mistrel",
+				"datatype": "braced",
+				"raw": "{Megan Mistrel}"
+			},
+			{
+				"name": "TITLE",
+				"value": "Lumbering Lunatics",
+				"datatype": "braced",
+				"raw": "{Lumbering Lunatics}"
+			},
+			{
+				"name": "ORIGDATE",
+				"value": "1933",
+				"datatype": "braced",
+				"raw": "{1933}"
+			},
+			{
+				"name": "XREF",
+				"value": "missing1",
+				"datatype": "braced",
+				"raw": "{missing1}"
+			}
+		],
+		"raw": "@INBOOK{mxr,\n  AUTHOR    = {Megan Mistrel},\n  TITLE     = {Lumbering Lunatics},\n  ORIGDATE  = {1933},\n  XREF      = {missing1}\n}"
+	},
+	{
+		"itemtype": "comment",
+		"comment": "\n"
+	}
+]

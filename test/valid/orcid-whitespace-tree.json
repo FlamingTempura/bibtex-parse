@@ -1,0 +1,45 @@
+[
+	{
+		"itemtype": "comment",
+		"comment": "\n  "
+	},
+	{
+		"itemtype": "entry",
+		"type": "article",
+		"enclosed": "braces",
+		"key": "SomeKey",
+		"fields": [
+			{
+				"name": "author",
+				"value": "John Doe",
+				"datatype": "braced",
+				"raw": "{John Doe}"
+			},
+			{
+				"name": "title",
+				"value": "Foo Bar",
+				"datatype": "braced",
+				"raw": "{Foo Bar}"
+			},
+			{
+				"name": "journal",
+				"value": "Transactions on Foobar",
+				"datatype": "braced",
+				"raw": "{Transactions on Foobar}"
+			},
+			{
+				"name": "volume",
+				"value": "42",
+				"datatype": "braced",
+				"raw": "{42}"
+			},
+			{
+				"name": "year",
+				"value": "2017",
+				"datatype": "braced",
+				"raw": "{2017}"
+			}
+		],
+		"raw": "@article{SomeKey,\n   author     = {John Doe},\n   title\t= {Foo Bar},\n  journal=\t{Transactions on Foobar},\n         \tvolume\t  =   {42},\n\tyear \t={2017}\n  }"
+	}
+]

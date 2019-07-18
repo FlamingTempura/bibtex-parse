@@ -1,0 +1,17 @@
+[
+	{
+		"itemtype": "entry",
+		"type": "article",
+		"enclosed": "braces",
+		"key": "key03",
+		"fields": [
+			{
+				"name": "title",
+				"value": "A {bunch {of} braces {in}} title",
+				"datatype": "quoted",
+				"raw": "\"A {bunch {of} braces {in}} title\""
+			}
+		],
+		"raw": "@Article{key03,\n  title = \"A {bunch {of} braces {in}} title\"\n}"
+	}
+]

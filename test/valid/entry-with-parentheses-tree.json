@@ -1,0 +1,140 @@
+[
+	{
+		"itemtype": "comment",
+		"comment": "\n\t"
+	},
+	{
+		"itemtype": "entry",
+		"type": "article",
+		"enclosed": "parentheses",
+		"key": null,
+		"fields": [
+			{
+				"name": "author",
+				"value": "Huang, Y. and Mucke, L.",
+				"datatype": "braced",
+				"raw": "{Huang, Y. and Mucke, L.}"
+			},
+			{
+				"name": "title",
+				"value": "Alzheimer mechanisms and therapeutic strategies",
+				"datatype": "braced",
+				"raw": "{Alzheimer mechanisms and therapeutic strategies}"
+			},
+			{
+				"name": "journal",
+				"value": "Cell",
+				"datatype": "braced",
+				"raw": "{Cell}"
+			},
+			{
+				"name": "volume",
+				"value": "148",
+				"datatype": "braced",
+				"raw": "{148}"
+			},
+			{
+				"name": "number",
+				"value": "6",
+				"datatype": "braced",
+				"raw": "{6}"
+			},
+			{
+				"name": "pages",
+				"value": "1204-22",
+				"datatype": "braced",
+				"raw": "{1204-22}"
+			},
+			{
+				"name": "note",
+				"value": "Huang, Yadong\n\tMucke, Lennart\n\tAG011385/AG/NIA NIH HHS/\n\tAG022074/AG/NIA NIH HHS/\n\tCell. 2012 Mar 16;148(6):1204-22.",
+				"datatype": "braced",
+				"raw": "{Huang, Yadong\n\tMucke, Lennart\n\tAG011385/AG/NIA NIH HHS/\n\tAG022074/AG/NIA NIH HHS/\n\tCell. 2012 Mar 16;148(6):1204-22.}"
+			},
+			{
+				"name": "abstract",
+				"value": "There are still no effective treatments to prevent, halt, or reverse Alzheimer's disease, but research advances over the past three decades could change this gloomy picture. Genetic studies demonstrate that the disease has multiple causes. Interdisciplinary approaches combining biochemistry, molecular and cell biology, and transgenic modeling have revealed some of its molecular mechanisms. Progress in chemistry, radiology, and systems biology is beginning to provide useful biomarkers, and the emergence of personalized medicine is poised to transform pharmaceutical development and clinical trials. However, investigative and drug development efforts should be diversified to fully address the multifactoriality of the disease.",
+				"datatype": "braced",
+				"raw": "{There are still no effective treatments to prevent, halt, or reverse Alzheimer's disease, but research advances over the past three decades could change this gloomy picture. Genetic studies demonstrate that the disease has multiple causes. Interdisciplinary approaches combining biochemistry, molecular and cell biology, and transgenic modeling have revealed some of its molecular mechanisms. Progress in chemistry, radiology, and systems biology is beginning to provide useful biomarkers, and the emergence of personalized medicine is poised to transform pharmaceutical development and clinical trials. However, investigative and drug development efforts should be diversified to fully address the multifactoriality of the disease.}"
+			},
+			{
+				"name": "year",
+				"value": "2012",
+				"datatype": "braced",
+				"raw": "{2012}"
+			}
+		],
+		"raw": "@article(\n\t  author = {Huang, Y. and Mucke, L.},\n\t  title = {Alzheimer mechanisms and therapeutic strategies},\n\t  journal = {Cell},\n\t  volume = {148},\n\t  number = {6},\n\t  pages = {1204-22},\n\t  note = {Huang, Yadong\n\tMucke, Lennart\n\tAG011385/AG/NIA NIH HHS/\n\tAG022074/AG/NIA NIH HHS/\n\tCell. 2012 Mar 16;148(6):1204-22.},\n\t  abstract = {There are still no effective treatments to prevent, halt, or reverse Alzheimer's disease, but research advances over the past three decades could change this gloomy picture. Genetic studies demonstrate that the disease has multiple causes. Interdisciplinary approaches combining biochemistry, molecular and cell biology, and transgenic modeling have revealed some of its molecular mechanisms. Progress in chemistry, radiology, and systems biology is beginning to provide useful biomarkers, and the emergence of personalized medicine is poised to transform pharmaceutical development and clinical trials. However, investigative and drug development efforts should be diversified to fully address the multifactoriality of the disease.},\n\t  year = {2012}\n\t)"
+	},
+	{
+		"itemtype": "comment",
+		"comment": "\n\n\t"
+	},
+	{
+		"itemtype": "entry",
+		"type": "article",
+		"enclosed": "parentheses",
+		"key": "boo",
+		"fields": [
+			{
+				"name": "author",
+				"value": "Huang, Y. and Mucke, L.",
+				"datatype": "braced",
+				"raw": "{Huang, Y. and Mucke, L.}"
+			},
+			{
+				"name": "title",
+				"value": "Alzheimer mechanisms and therapeutic strategies",
+				"datatype": "braced",
+				"raw": "{Alzheimer mechanisms and therapeutic strategies}"
+			},
+			{
+				"name": "journal",
+				"value": "Cell",
+				"datatype": "braced",
+				"raw": "{Cell}"
+			},
+			{
+				"name": "volume",
+				"value": "148",
+				"datatype": "braced",
+				"raw": "{148}"
+			},
+			{
+				"name": "number",
+				"value": "6",
+				"datatype": "braced",
+				"raw": "{6}"
+			},
+			{
+				"name": "pages",
+				"value": "1204-22",
+				"datatype": "braced",
+				"raw": "{1204-22}"
+			},
+			{
+				"name": "note",
+				"value": "Huang, Yadong\n\tMucke, Lennart\n\tAG011385/AG/NIA NIH HHS/\n\tAG022074/AG/NIA NIH HHS/\n\tCell. 2012 Mar 16;148(6):1204-22.",
+				"datatype": "braced",
+				"raw": "{Huang, Yadong\n\tMucke, Lennart\n\tAG011385/AG/NIA NIH HHS/\n\tAG022074/AG/NIA NIH HHS/\n\tCell. 2012 Mar 16;148(6):1204-22.}"
+			},
+			{
+				"name": "abstract",
+				"value": "There are still no effective treatments to prevent, halt, or reverse Alzheimer's disease, but research advances over the past three decades could change this gloomy picture. Genetic studies demonstrate that the disease has multiple causes. Interdisciplinary approaches combining biochemistry, molecular and cell biology, and transgenic modeling have revealed some of its molecular mechanisms. Progress in chemistry, radiology, and systems biology is beginning to provide useful biomarkers, and the emergence of personalized medicine is poised to transform pharmaceutical development and clinical trials. However, investigative and drug development efforts should be diversified to fully address the multifactoriality of the disease.",
+				"datatype": "braced",
+				"raw": "{There are still no effective treatments to prevent, halt, or reverse Alzheimer's disease, but research advances over the past three decades could change this gloomy picture. Genetic studies demonstrate that the disease has multiple causes. Interdisciplinary approaches combining biochemistry, molecular and cell biology, and transgenic modeling have revealed some of its molecular mechanisms. Progress in chemistry, radiology, and systems biology is beginning to provide useful biomarkers, and the emergence of personalized medicine is poised to transform pharmaceutical development and clinical trials. However, investigative and drug development efforts should be diversified to fully address the multifactoriality of the disease.}"
+			},
+			{
+				"name": "year",
+				"value": "2012",
+				"datatype": "braced",
+				"raw": "{2012}"
+			}
+		],
+		"raw": "@article(boo,\n\t  author = {Huang, Y. and Mucke, L.},\n\t  title = {Alzheimer mechanisms and therapeutic strategies},\n\t  journal = {Cell},\n\t  volume = {148},\n\t  number = {6},\n\t  pages = {1204-22},\n\t  note = {Huang, Yadong\n\tMucke, Lennart\n\tAG011385/AG/NIA NIH HHS/\n\tAG022074/AG/NIA NIH HHS/\n\tCell. 2012 Mar 16;148(6):1204-22.},\n\t  abstract = {There are still no effective treatments to prevent, halt, or reverse Alzheimer's disease, but research advances over the past three decades could change this gloomy picture. Genetic studies demonstrate that the disease has multiple causes. Interdisciplinary approaches combining biochemistry, molecular and cell biology, and transgenic modeling have revealed some of its molecular mechanisms. Progress in chemistry, radiology, and systems biology is beginning to provide useful biomarkers, and the emergence of personalized medicine is poised to transform pharmaceutical development and clinical trials. However, investigative and drug development efforts should be diversified to fully address the multifactoriality of the disease.},\n\t  year = {2012}\n\t)"
+	},
+	{
+		"itemtype": "comment",
+		"comment": "\n"
+	}
+]

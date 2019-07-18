@@ -1,0 +1,11 @@
+[
+	{
+		"key": "SomeKey",
+		"type": "article",
+		"AUTHOR": "John Doe",
+		"TITLE": "Foo Bar",
+		"JOURNAL": "Transactions on Foobar",
+		"VOLUME": "42",
+		"YEAR": "2017"
+	}
+]

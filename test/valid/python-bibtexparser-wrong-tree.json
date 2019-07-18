@@ -1,0 +1,44 @@
+[
+	{
+		"itemtype": "comment",
+		"comment": "\n\n"
+	},
+	{
+		"itemtype": "entry",
+		"type": "wrong",
+		"enclosed": "braces",
+		"key": "foo",
+		"fields": [
+			{
+				"name": "author",
+				"value": "wrong",
+				"datatype": "braced",
+				"raw": "{wrong}"
+			}
+		],
+		"raw": "@wrong{foo,\n    author = {wrong}\n}"
+	},
+	{
+		"itemtype": "comment",
+		"comment": "\n\n"
+	},
+	{
+		"itemtype": "entry",
+		"type": "article",
+		"enclosed": "braces",
+		"key": "bar",
+		"fields": [
+			{
+				"name": "author",
+				"value": "correct",
+				"datatype": "braced",
+				"raw": "{correct}"
+			}
+		],
+		"raw": "@article{bar,\n    author = {correct}\n}"
+	},
+	{
+		"itemtype": "comment",
+		"comment": "\n"
+	}
+]

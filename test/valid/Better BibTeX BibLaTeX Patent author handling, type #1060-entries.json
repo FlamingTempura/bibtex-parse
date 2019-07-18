@@ -1,0 +1,23 @@
+[
+	{
+		"key": "laufenberg",
+		"type": "patent",
+		"AUTHOR": "Laufenberg, Xaver and Eynius, Dominique and Suelzle, Helmut\n                  and Usbeck, Stephan and Spaeth, Matthias and Neuser-Hoffmann,\n                  Miriam and Myrzik, Christian and Schmid, Manfred and Nietfeld,\n                  Franz and Thiel, Alexander and Braun, Harald and Ebner,\n                  Norbert",
+		"TITLE": "Elektrische Einrichtung und Betriebsverfahren",
+		"NUMBER": 1700367,
+		"DATE": "2006-09-13",
+		"HOLDER": "Robert Bosch GmbH and Daimler Chrysler AG and Bayerische\n                  Motoren Werke AG",
+		"TYPE": "patenteu",
+		"URL": "http://v3.espacenet.com/textdoc?IDX=EP1700367"
+	},
+	{
+		"key": "sorace",
+		"type": "patent",
+		"AUTHOR": "Sorace, Ronald E. and Reinhardt, Victor S. and Vaughn, Steven\n                  A.",
+		"TITLE": "High-Speed Digital-to-RF Converter",
+		"NUMBER": 5668842,
+		"DATE": "1997-09-16",
+		"HOLDER": "Hughes Aircraft Company",
+		"TYPE": "patentus"
+	}
+]

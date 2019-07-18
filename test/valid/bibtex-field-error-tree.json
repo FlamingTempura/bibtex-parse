@@ -1,0 +1,48 @@
+[
+	{
+		"itemtype": "entry",
+		"type": "misc",
+		"enclosed": "braces",
+		"key": "web:abc",
+		"fields": [
+			{
+				"name": "x",
+				"value": "{1234}",
+				"datatype": "braced",
+				"raw": "{{1234}}"
+			},
+			{
+				"name": "year",
+				"value": 1234,
+				"datatype": "number",
+				"raw": "1234"
+			}
+		],
+		"raw": "@misc{web:abc,\n    x = {{1234}},\n    year = 1234,\n}"
+	},
+	{
+		"itemtype": "comment",
+		"comment": "\n"
+	},
+	{
+		"itemtype": "entry",
+		"type": "misc",
+		"enclosed": "braces",
+		"key": "web:def",
+		"fields": [
+			{
+				"name": "x",
+				"value": "abcd",
+				"datatype": "quoted",
+				"raw": "\"abcd\""
+			},
+			{
+				"name": "y",
+				"value": "abcd",
+				"datatype": "braced",
+				"raw": "{abcd}"
+			}
+		],
+		"raw": "@misc{web:def,\n    x = \"abcd\",\n    y = {abcd},\n}"
+	}
+]

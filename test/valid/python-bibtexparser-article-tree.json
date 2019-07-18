@@ -1,0 +1,75 @@
+[
+	{
+		"itemtype": "entry",
+		"type": "article",
+		"enclosed": "braces",
+		"key": "Cesar2013",
+		"fields": [
+			{
+				"name": "author",
+				"value": "Jean César",
+				"datatype": "braced",
+				"raw": "{Jean César}"
+			},
+			{
+				"name": "title",
+				"value": "An amazing title",
+				"datatype": "braced",
+				"raw": "{An amazing title}"
+			},
+			{
+				"name": "year",
+				"value": "2013",
+				"datatype": "braced",
+				"raw": "{2013}"
+			},
+			{
+				"name": "month",
+				"value": "jan",
+				"datatype": "quoted",
+				"raw": "\"jan\""
+			},
+			{
+				"name": "volume",
+				"value": "12",
+				"datatype": "braced",
+				"raw": "{12}"
+			},
+			{
+				"name": "pages",
+				"value": "12-23",
+				"datatype": "braced",
+				"raw": "{12-23}"
+			},
+			{
+				"name": "journal",
+				"value": "Nice Journal",
+				"datatype": "braced",
+				"raw": "{Nice Journal}"
+			},
+			{
+				"name": "abstract",
+				"value": "This is an abstract. This line should be long enough to test\nmultilines... and with a french érudit word",
+				"datatype": "braced",
+				"raw": "{This is an abstract. This line should be long enough to test\nmultilines... and with a french érudit word}"
+			},
+			{
+				"name": "comments",
+				"value": "A comment",
+				"datatype": "braced",
+				"raw": "{A comment}"
+			},
+			{
+				"name": "keyword",
+				"value": "keyword1, keyword2",
+				"datatype": "braced",
+				"raw": "{keyword1, keyword2}"
+			}
+		],
+		"raw": "@ARTICLE{Cesar2013,\n  author = {Jean César},\n  title = {An amazing title},\n  year = {2013},\n  month = \"jan\",\n  volume = {12},\n  pages = {12-23},\n  journal = {Nice Journal},\n  abstract = {This is an abstract. This line should be long enough to test\nmultilines... and with a french érudit word},\n  comments = {A comment},\n  keyword = {keyword1, keyword2},\n}"
+	},
+	{
+		"itemtype": "comment",
+		"comment": "\n"
+	}
+]

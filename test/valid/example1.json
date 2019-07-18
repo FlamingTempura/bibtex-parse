@@ -1,0 +1,222 @@
+[
+	{
+		"type": "comment",
+		"comment": "@comment{jabref-meta: groupsversion:3;} % zotero export\n\n%references\n"
+	},
+	{
+		"type": "inproceedings",
+		"id": "Smith2009",
+		"enclosed": "curly",
+		"properties": {
+			"author": {
+				"value": "Caroline JA Smith",
+				"enclosed": "quote",
+				"raw": "\"Caroline JA Smith\""
+			},
+			"year": {
+				"value": 2009,
+				"enclosed": null,
+				"raw": "2009"
+			},
+			"month": {
+				"value": "dec",
+				"enclosed": null,
+				"raw": "dec"
+			},
+			"title": {
+				"value": "{Quantum somethings}",
+				"enclosed": "curly",
+				"raw": "{{Quantum somethings}}"
+			},
+			"journal": {
+				"value": "Journal of {B}lah",
+				"enclosed": "curly",
+				"raw": "{Journal of {B}lah}"
+			}
+		}
+	},
+	{
+		"type": "comment",
+		"comment": "\n\ncomment\n"
+	},
+	{
+		"type": "book",
+		"id": "IP:1990",
+		"enclosed": "curly",
+		"properties": {
+			"author": {
+				"value": "Prince, Ian",
+				"enclosed": "quote",
+				"raw": "\"Prince, Ian\""
+			},
+			"year": {
+				"value": "1990",
+				"enclosed": "curly",
+				"raw": "{1990}"
+			},
+			"title": {
+				"value": "Methods for Research",
+				"enclosed": "curly",
+				"raw": "{Methods for Research}"
+			}
+		}
+	},
+	{
+		"type": "comment",
+		"comment": "\n\n@Comment{A comment}\n"
+	},
+	{
+		"type": "article",
+		"id": "py03",
+		"enclosed": "curly",
+		"properties": {
+			"author": {
+				"value": "Xavier D\\'ecoret",
+				"enclosed": "curly",
+				"raw": "{Xavier D\\'ecoret}"
+			},
+			"title": {
+				"value": "PyBiTex",
+				"enclosed": "quote",
+				"raw": "\"PyBiTex\""
+			},
+			"year": {
+				"value": 2003,
+				"enclosed": null,
+				"raw": "2003"
+			}
+		}
+	},
+	{
+		"type": "comment",
+		"comment": "\n\n@Comment{\n  @Book{steward03,\n    author =\t {Martha Steward},\n    title =\t {Cooking behind bars},\n    publisher =\t {Culinary Expert Series},\n    year =\t 2003\n  }\n  @Article{py03,\n     author = {Xavier D\\'ecoret},\n     title  = \"PyBiTex\",\n     year   = 2003\n\t}\n\t@boo{fd{},fds}\n}\n\n\n"
+	},
+	{
+		"type": "string",
+		"key": "mar",
+		"value": {
+			"value": "march",
+			"enclosed": "quote",
+			"raw": "\"march\""
+		},
+		"raw": "mar = \"march\""
+	},
+	{
+		"type": "comment",
+		"comment": "\n      \n"
+	},
+	{
+		"type": "book",
+		"id": "sweig42",
+		"enclosed": "curly",
+		"properties": {
+			"month": {
+				"value": "1~mar",
+				"enclosed": "quote",
+				"raw": "\"1~mar\""
+			}
+		}
+	},
+	{
+		"type": "comment",
+		"comment": "\n\n"
+	},
+	{
+		"type": "string",
+		"key": "mar",
+		"value": {
+			"value": "march",
+			"enclosed": "quote",
+			"raw": "\"march\""
+		},
+		"raw": "mar = \"march\""
+	},
+	{
+		"type": "comment",
+		"comment": "\n      \n"
+	},
+	{
+		"type": "book",
+		"id": "sweig42",
+		"enclosed": "parentheses",
+		"properties": {
+			"month": {
+				"value": [
+					{
+						"value": "1~",
+						"enclosed": "quote",
+						"raw": "\"1~\""
+					},
+					{
+						"value": "mar",
+						"enclosed": null,
+						"raw": "mar"
+					}
+				],
+				"raw": "\"1~\" # mar"
+			}
+		}
+	},
+	{
+		"type": "comment",
+		"comment": "\n\n"
+	},
+	{
+		"type": "string",
+		"key": "firstname",
+		"value": {
+			"value": "Xavier",
+			"enclosed": "quote",
+			"raw": "\"Xavier\""
+		},
+		"raw": "firstname = \"Xavier\""
+	},
+	{
+		"type": "comment",
+		"comment": "\n"
+	},
+	{
+		"type": "string",
+		"key": "lastname",
+		"value": {
+			"value": "Decoret",
+			"enclosed": "quote",
+			"raw": "\"Decoret\""
+		},
+		"raw": "lastname  = \"Decoret\""
+	},
+	{
+		"type": "comment",
+		"comment": "\n"
+	},
+	{
+		"type": "string",
+		"key": "email",
+		"value": {
+			"value": [
+				{
+					"value": "firstname",
+					"enclosed": null,
+					"raw": "firstname"
+				},
+				{
+					"value": ".",
+					"enclosed": "quote",
+					"raw": "\".\""
+				},
+				{
+					"value": "lastname",
+					"enclosed": null,
+					"raw": "lastname"
+				},
+				{
+					"value": "@imag.fr",
+					"enclosed": "quote",
+					"raw": "\"@imag.fr\""
+				}
+			],
+			"raw": "firstname # \".\" # lastname # \"@imag.fr\""
+		},
+		"raw": "email      = firstname # \".\" # lastname # \"@imag.fr\""
+	}
+]

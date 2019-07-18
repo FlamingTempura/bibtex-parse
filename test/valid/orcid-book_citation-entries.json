@@ -1,0 +1,17 @@
+[
+	{
+		"key": "book",
+		"type": "book",
+		"AUTHOR": "Peter Babington",
+		"TITLE": "The title of the work",
+		"PUBLISHER": "The name of the publisher",
+		"YEAR": "1993",
+		"VOLUME": 4,
+		"SERIES": 10,
+		"ADDRESS": "The address",
+		"EDITION": 3,
+		"MONTH": 7,
+		"NOTE": "An optional note",
+		"ISBN": "3257227892"
+	}
+]

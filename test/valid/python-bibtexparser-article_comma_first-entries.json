@@ -1,0 +1,24 @@
+[
+	{
+		"key": "Cesar2013",
+		"type": "article",
+		"AUTHOR": "Jean Cesar",
+		"TITLE": "An amazing title",
+		"YEAR": "2013",
+		"VOLUME": "12",
+		"JOURNAL": "Nice Journal",
+		"COMMENTS": "A comment",
+		"KEYWORD": "keyword1, keyword2"
+	},
+	{
+		"key": "Baltazar2013",
+		"type": "article",
+		"AUTHOR": "Jean Baltazar",
+		"TITLE": "An amazing title",
+		"YEAR": "2013",
+		"VOLUME": "12",
+		"JOURNAL": "Nice Journal",
+		"COMMENTS": "A comment",
+		"KEYWORD": "keyword1, keyword2"
+	}
+]

@@ -1,0 +1,21 @@
+[
+	{
+		"itemtype": "entry",
+		"type": "authorssimple",
+		"enclosed": "braces",
+		"key": null,
+		"fields": [
+			{
+				"name": "author",
+				"value": "John Doe",
+				"datatype": "quoted",
+				"raw": "\"John Doe\""
+			}
+		],
+		"raw": "@authorssimple{\n\tauthor=\"John Doe\"\n}"
+	},
+	{
+		"itemtype": "comment",
+		"comment": "\n"
+	}
+]

@@ -1,0 +1,54 @@
+[
+	{
+		"itemtype": "entry",
+		"type": "article",
+		"enclosed": "braces",
+		"key": "name",
+		"fields": [
+			{
+				"name": "year",
+				"value": 2016,
+				"datatype": "number",
+				"raw": "2016"
+			},
+			{
+				"name": "title",
+				"value": "SessionBasedBlah",
+				"datatype": "braced",
+				"raw": "{SessionBasedBlah}"
+			}
+		],
+		"raw": "@article{name,\n  year = 2016,\n  title = {SessionBasedBlah}\n}"
+	},
+	{
+		"itemtype": "comment",
+		"comment": "\n\n"
+	},
+	{
+		"itemtype": "entry",
+		"type": "inproceedings",
+		"enclosed": "braces",
+		"key": "ng2014",
+		"fields": [
+			{
+				"name": "title",
+				"value": "Blah",
+				"datatype": "quoted",
+				"raw": "\"Blah\""
+			},
+			{
+				"name": "author",
+				"value": "Me",
+				"datatype": "quoted",
+				"raw": "\"Me\""
+			},
+			{
+				"name": "booktitle",
+				"value": "ABCD2014",
+				"datatype": "quoted",
+				"raw": "\"ABCD2014\""
+			}
+		],
+		"raw": "@inproceedings{ng2014,\n  title = \"Blah\",\n  author = \"Me\",\n  booktitle = \"ABCD2014\"\n}"
+	}
+]

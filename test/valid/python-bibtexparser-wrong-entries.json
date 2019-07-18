@@ -1,0 +1,12 @@
+[
+	{
+		"key": "foo",
+		"type": "wrong",
+		"AUTHOR": "wrong"
+	},
+	{
+		"key": "bar",
+		"type": "article",
+		"AUTHOR": "correct"
+	}
+]

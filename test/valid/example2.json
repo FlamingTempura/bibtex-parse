@@ -1,0 +1,194 @@
+[
+	{
+		"type": "string",
+		"key": "maintainer",
+		"value": {
+			"value": "Xavier D\\'ecoret",
+			"enclosed": "quote",
+			"raw": "\"Xavier D\\'ecoret\""
+		},
+		"raw": "maintainer = \"Xavier D\\'ecoret\""
+	},
+	{
+		"type": "comment",
+		"comment": "\n\n"
+	},
+	{
+		"type": "preamble",
+		"preamble": {
+			"value": [
+				{
+					"value": "Maintained by ",
+					"enclosed": "quote",
+					"raw": "\"Maintained by \""
+				},
+				{
+					"value": "maintainer",
+					"enclosed": null,
+					"raw": "maintainer"
+				}
+			],
+			"raw": "\"Maintained by \" # maintainer"
+		}
+	},
+	{
+		"type": "comment",
+		"comment": "\n\n"
+	},
+	{
+		"type": "string",
+		"key": "mar",
+		"value": {
+			"value": "march",
+			"enclosed": "quote",
+			"raw": "\"march\""
+		},
+		"raw": "mar = \"march\""
+	},
+	{
+		"type": "comment",
+		"comment": "\n      \n"
+	},
+	{
+		"type": "book",
+		"id": "sweig42",
+		"enclosed": "curly",
+		"properties": {
+			"Author": {
+				"value": " Stefan Sweig ",
+				"enclosed": "curly",
+				"raw": "{ Stefan Sweig }"
+			},
+			"title": {
+				"value": " The impossible book ",
+				"enclosed": "curly",
+				"raw": "{ The impossible book }"
+			},
+			"publisher": {
+				"value": " Dead Poet Society",
+				"enclosed": "curly",
+				"raw": "{ Dead Poet Society}"
+			},
+			"year": {
+				"value": 1942,
+				"enclosed": null,
+				"raw": "1942"
+			},
+			"month": {
+				"value": "mar",
+				"enclosed": null,
+				"raw": "mar"
+			}
+		}
+	},
+	{
+		"type": "comment",
+		"comment": "\n\n...and finally an entry commented by the use of the special @Comment entry type.\n\n@Comment{steward03,\n  author =\t {Martha Steward},\n  title =\t {Cooking behind bars},\n  publisher =\t {Culinary Expert Series},\n  year =\t 2003\n}\n\n% boo!\n\t"
+	},
+	{
+		"type": "article",
+		"id": "thing_a",
+		"enclosed": "curly",
+		"properties": {
+			"title": {
+				"value": "blah",
+				"enclosed": "curly",
+				"raw": "{blah}"
+			},
+			"weird-key": {
+				"value": "{cheese} \\\"in brie\\\"",
+				"enclosed": "quote",
+				"raw": "\"{cheese} \\\"in brie\\\"\""
+			}
+		}
+	},
+	{
+		"type": "comment",
+		"comment": "\n\t% another comment\n\t"
+	},
+	{
+		"type": "inproceedings",
+		"id": "Smith2009",
+		"enclosed": "curly",
+		"properties": {
+			"author": {
+				"value": "Caroline JA Smith",
+				"enclosed": "quote",
+				"raw": "\"Caroline JA Smith\""
+			},
+			"year": {
+				"value": 2009,
+				"enclosed": null,
+				"raw": "2009"
+			},
+			"month": {
+				"value": "dec",
+				"enclosed": null,
+				"raw": "dec"
+			},
+			"title": {
+				"value": "{Quantum somethings}",
+				"enclosed": "curly",
+				"raw": "{{Quantum somethings}}"
+			},
+			"journal": {
+				"value": "Journal of {B}lah",
+				"enclosed": "curly",
+				"raw": "{Journal of {B}lah}"
+			}
+		}
+	},
+	{
+		"type": "conference_at",
+		"id": "4",
+		"enclosed": "curly",
+		"properties": {
+			"a__": {
+				"value": "{Caroline JA Smith}",
+				"enclosed": "quote",
+				"raw": "\"{Caroline JA Smith}\""
+			},
+			"_#bo": {
+				"value": "Q{Uantum} {s}omethings",
+				"enclosed": "curly",
+				"raw": "{Q{Uantum} {s}omethings}"
+			},
+			"key with spaces": {
+				"value": "thing",
+				"enclosed": null,
+				"raw": "thing"
+			}
+		}
+	},
+	{
+		"type": "comment",
+		"comment": "\n\t% last thing\n\t% another last thing\n\nSome {{comments} with unbalanced braces\n....and a \"commented\" entry...\n\nBook{landru21,\n  author =\t {Landru, Henri D\\\\'esir\\\\'e},\n  title =\t {A hundred recipes for you wife},\n  publisher =\t {Culinary Expert Series},\n  year =\t 1921\n}\n\n..some other comments..before a valid entry...\n\n"
+	},
+	{
+		"type": "book",
+		"id": "steward03",
+		"enclosed": "curly",
+		"properties": {
+			"author": {
+				"value": " Martha Steward ",
+				"enclosed": "curly",
+				"raw": "{ Martha Steward }"
+			},
+			"title": {
+				"value": "Cooking behind bars",
+				"enclosed": "curly",
+				"raw": "{Cooking behind bars}"
+			},
+			"publisher": {
+				"value": "Culinary Expert Series",
+				"enclosed": "curly",
+				"raw": "{Culinary Expert Series}"
+			},
+			"year": {
+				"value": 2003,
+				"enclosed": null,
+				"raw": "2003"
+			}
+		}
+	}
+]

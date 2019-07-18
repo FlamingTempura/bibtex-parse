@@ -1,0 +1,52 @@
+[
+	{
+		"itemtype": "entry",
+		"type": "article",
+		"enclosed": "braces",
+		"key": "HoSp-87",
+		"fields": [
+			{
+				"name": "author",
+				"value": "Hoffmann",
+				"datatype": "braced",
+				"raw": "{Hoffmann}"
+			},
+			{
+				"name": "title",
+				"value": "Phase transitions",
+				"datatype": "braced",
+				"raw": "{Phase transitions}"
+			}
+		],
+		"raw": "@Article{HoSp-87 ,\n   author = {Hoffmann},\n   title = {Phase transitions},\n}"
+	},
+	{
+		"itemtype": "comment",
+		"comment": "\n\n"
+	},
+	{
+		"itemtype": "entry",
+		"type": "book",
+		"enclosed": "braces",
+		"key": "HoSp-90",
+		"fields": [
+			{
+				"name": "editor",
+				"value": "Sprekels",
+				"datatype": "braced",
+				"raw": "{Sprekels}"
+			},
+			{
+				"name": "title",
+				"value": "Free Boundary Problems",
+				"datatype": "braced",
+				"raw": "{Free Boundary Problems}"
+			}
+		],
+		"raw": "@Book{HoSp-90,\n  editor = {Sprekels},\n  title = {Free Boundary Problems},\n}"
+	},
+	{
+		"itemtype": "comment",
+		"comment": "\n"
+	}
+]

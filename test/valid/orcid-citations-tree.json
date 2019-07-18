@@ -1,0 +1,25 @@
+[
+	{
+		"itemtype": "comment",
+		"comment": "\n  "
+	},
+	{
+		"itemtype": "entry",
+		"type": "article",
+		"enclosed": "braces",
+		"key": "sample1",
+		"fields": [
+			{
+				"name": "title",
+				"value": "sample title",
+				"datatype": "braced",
+				"raw": "{sample title}"
+			}
+		],
+		"raw": "@article{sample1,title={sample title}}"
+	},
+	{
+		"itemtype": "comment",
+		"comment": "\n"
+	}
+]

@@ -1,0 +1,27 @@
+[
+	{
+		"itemtype": "entry",
+		"type": "typeoverriding",
+		"enclosed": "braces",
+		"key": null,
+		"fields": [
+			{
+				"name": "foo",
+				"value": "bar",
+				"datatype": "identifier",
+				"raw": "bar"
+			},
+			{
+				"name": "type",
+				"value": "new type value",
+				"datatype": "braced",
+				"raw": "{new type value}"
+			}
+		],
+		"raw": "@typeOverriding{\n    foo = bar,\n    type = {new type value}\n}"
+	},
+	{
+		"itemtype": "comment",
+		"comment": "\n"
+	}
+]

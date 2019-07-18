@@ -1,0 +1,12 @@
+[
+	{
+		"key": "kNull",
+		"type": "valuesbasic",
+		"KSTILLNULL": null,
+		"KRAW": "",
+		"KBRACED": " braced value ",
+		"KBRACEDEMPTY": "",
+		"KQUOTED": " quoted value ",
+		"KQUOTEDEMPTY": ""
+	}
+]

@@ -1,0 +1,16 @@
+[
+	{
+		"key": "Cesar2013",
+		"type": "article",
+		"AUTHOR": "Jean César",
+		"TITLE": "An amazing title",
+		"YEAR": "2013",
+		"MONTH": "jan",
+		"VOLUME": "12",
+		"PAGES": "12-23",
+		"JOURNAL": "Nice Journal",
+		"ABSTRACT": "This is an abstract. This line should be long enough to test\nmultilines... and with a french érudit word",
+		"COMMENTS": "A comment",
+		"KEYWORD": "keyword1, keyword2"
+	}
+]

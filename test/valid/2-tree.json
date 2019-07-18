@@ -1,0 +1,17 @@
+[
+	{
+		"itemtype": "entry",
+		"type": "article",
+		"enclosed": "braces",
+		"key": "key01",
+		"fields": [
+			{
+				"name": "author",
+				"value": "Simon {\"}the {saint\"} Templar",
+				"datatype": "quoted",
+				"raw": "\"Simon {\"}the {saint\"} Templar\""
+			}
+		],
+		"raw": "@Article{key01,\n  author = \"Simon {\"}the {saint\"} Templar\", \n}"
+	}
+]

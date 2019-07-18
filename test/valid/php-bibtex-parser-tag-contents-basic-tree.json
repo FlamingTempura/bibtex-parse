@@ -1,0 +1,51 @@
+[
+	{
+		"itemtype": "entry",
+		"type": "valuesbasic",
+		"enclosed": "braces",
+		"key": "kNull",
+		"fields": [
+			{
+				"name": "kStillNull",
+				"value": null,
+				"datatype": "null",
+				"raw": ""
+			},
+			{
+				"name": "kRaw",
+				"value": "raw",
+				"datatype": "identifier",
+				"raw": "raw"
+			},
+			{
+				"name": "kBraced",
+				"value": " braced value ",
+				"datatype": "braced",
+				"raw": "{ braced value }"
+			},
+			{
+				"name": "kBracedEmpty",
+				"value": "",
+				"datatype": "braced",
+				"raw": "{}"
+			},
+			{
+				"name": "kQuoted",
+				"value": " quoted value ",
+				"datatype": "quoted",
+				"raw": "\" quoted value \""
+			},
+			{
+				"name": "kQuotedEmpty",
+				"value": "",
+				"datatype": "quoted",
+				"raw": "\"\""
+			}
+		],
+		"raw": "@valuesBasic {\n    kNull,\n    kStillNull,\n    kRaw = raw,\n    kBraced = { braced value },\n    kBracedEmpty = {},\n    kQuoted = \" quoted value \",\n    kQuotedEmpty = \"\"\n}"
+	},
+	{
+		"itemtype": "comment",
+		"comment": "\n"
+	}
+]

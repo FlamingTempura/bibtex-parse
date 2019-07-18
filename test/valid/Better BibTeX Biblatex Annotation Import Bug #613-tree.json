@@ -1,0 +1,51 @@
+[
+	{
+		"itemtype": "entry",
+		"type": "book",
+		"enclosed": "braces",
+		"key": "Demus1984",
+		"fields": [
+			{
+				"name": "Title",
+				"value": "The Mosaics of San Marco in Venice",
+				"datatype": "braced",
+				"raw": "{The Mosaics of San Marco in Venice}"
+			},
+			{
+				"name": "Author",
+				"value": "Demus, Otto",
+				"datatype": "braced",
+				"raw": "{Demus, Otto}"
+			},
+			{
+				"name": "Date",
+				"value": "1984",
+				"datatype": "braced",
+				"raw": "{1984}"
+			},
+			{
+				"name": "Location",
+				"value": "Chicago",
+				"datatype": "braced",
+				"raw": "{Chicago}"
+			},
+			{
+				"name": "Publisher",
+				"value": "University of Chicago Press",
+				"datatype": "braced",
+				"raw": "{University of Chicago Press}"
+			},
+			{
+				"name": "Annotation",
+				"value": "a \"monumental\" work on the mosaics of San Marco",
+				"datatype": "braced",
+				"raw": "{a \"monumental\" work on the mosaics of San Marco}"
+			}
+		],
+		"raw": "@Book{Demus1984,\nTitle = {The Mosaics of San Marco in Venice},\nAuthor = {Demus, Otto},\nDate = {1984},\nLocation = {Chicago},\nPublisher = {University of Chicago Press},\nAnnotation = {a \"monumental\" work on the mosaics of San Marco},\n}"
+	},
+	{
+		"itemtype": "comment",
+		"comment": "\n"
+	}
+]

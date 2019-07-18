@@ -1,0 +1,66 @@
+[
+	{
+		"key": "xr1",
+		"type": "inbook",
+		"AUTHOR": "Zoe Zentrum",
+		"TITLE": "Moods Mildly Modified",
+		"ORIGDATE": "1921",
+		"XREF": "xrm"
+	},
+	{
+		"key": "xr2",
+		"type": "inbook",
+		"AUTHOR": "Ian Instant",
+		"TITLE": "Migraines Multiplying Madly",
+		"ORIGDATE": "1926",
+		"XREF": "xrm"
+	},
+	{
+		"key": "xrm",
+		"type": "book",
+		"EDITOR": "Peter Prendergast",
+		"TITLE": "Calligraphy, Calisthenics, Culture",
+		"PUBLISHER": "Mainstream",
+		"YEAR": "1970"
+	},
+	{
+		"key": "xr3",
+		"type": "inbook",
+		"AUTHOR": "Norman Normal",
+		"TITLE": "Russian Regalia Revisited",
+		"ORIGDATE": "1923",
+		"XREF": "xrt"
+	},
+	{
+		"key": "xrt",
+		"type": "book",
+		"EDITOR": "Lucy Lunders",
+		"TITLE": "Kings, Cork and Calculation",
+		"PUBLISHER": "Middling",
+		"YEAR": "1977"
+	},
+	{
+		"key": "xr4",
+		"type": "inbook",
+		"AUTHOR": "Megan Mistrel",
+		"TITLE": "Lumbering Lunatics",
+		"ORIGDATE": "1933",
+		"XREF": "xrn"
+	},
+	{
+		"key": "xr5",
+		"type": "inbook",
+		"AUTHOR": "Kenneth Kunrath",
+		"TITLE": "Dreadful Dreary Days",
+		"ORIGDATE": "1900",
+		"XREF": "xrn"
+	},
+	{
+		"key": "xrn",
+		"type": "book",
+		"EDITOR": "Victor Vivacious",
+		"TITLE": "Examples of Excellent Exaggerations",
+		"PUBLISHER": "Oxford",
+		"YEAR": "1935"
+	}
+]
