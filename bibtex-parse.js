@@ -1,7 +1,7 @@
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
   typeof define === 'function' && define.amd ? define(['exports'], factory) :
-  (factory((global['bibtex-parse'] = {})));
+  (global = global || self, factory(global['bibtex-parse'] = {}));
 }(this, (function (exports) { 'use strict';
 
   var parser = /*
@@ -235,7 +235,7 @@
           peg$c76 = peg$otherExpectation("number"),
           peg$c77 = /^[0-9]/,
           peg$c78 = peg$classExpectation([["0", "9"]], false, false),
-          peg$c79 = function() { return parseInt(text(), 10); },
+          peg$c79 = function() { return parseNumber(text()); },
           peg$c80 = peg$otherExpectation("braced value"),
           peg$c81 = /^[^{}]/,
           peg$c82 = peg$classExpectation(["{", "}"], true, false),
@@ -2120,6 +2120,23 @@
         return s0;
       }
 
+
+        const parseNumber = str => {
+          switch (options.number) {
+            case 'string':
+              return str;
+            case 'number':
+              return parseInt(str, 10);
+            case 'bigint':
+              return BigInt(str);
+            default:
+              const n = parseInt(str, 10);
+              if (n > Number.MAX_SAFE_INTEGER) return BigInt(str);
+              return n;
+          }
+        };
+
+
       peg$result = peg$startRuleFunction();
 
       if (peg$result !== peg$FAILED && peg$currPos === input.length) {
@@ -2159,32 +2176,34 @@
   	sep: 'September',
   	oct: 'October',
   	nov: 'November',
-  	dec: 'December',
+  	dec: 'December'
   };
 
-  const parse = str => parser.parse(str);
+  const parse = (str, options) => parser.parse(str, options);
 
-  const stripMatchingBraces = str => { // remove matching curly braces, excluding escaped braces
-  	while(str.match(/(^|[^\\])\{.*?([^\\])\}/s)) {
+  const stripMatchingBraces = str => {
+  	// remove matching curly braces, excluding escaped braces
+  	while (str.match(/(^|[^\\])\{.*?([^\\])\}/s)) {
   		str = str.replace(/(^|[^\\])\{(.*?)([^\\])\}/s, '$1$2$3');
   	}
   	return str;
   };
 
-  const entries = str => {
-  	let items = parse(str),
+  const entries = (str, options) => {
+  	let items = parse(str, options),
   		entries = [],
-  		strings = { ... STRINGS},
+  		strings = { ...STRINGS },
   		evaluate = (datatype, value) => {
   			if (datatype === 'number') {
   				return value;
   			} else if (datatype === 'quoted' || datatype === 'braced') {
-  				return stripMatchingBraces(value)
-  					.replace(/\\(["'%@{}()_])/g, '$1'); // unescape characters
+  				return stripMatchingBraces(value).replace(/\\(["'%@{}()_])/g, '$1'); // unescape characters
   			} else if (datatype === 'identifier') {
   				return strings[value] || '';
   			} else if (datatype === 'concatinate') {
-  				return value.map(({ datatype, value }) => evaluate(datatype, value)).join('');
+  				return value
+  					.map(({ datatype, value }) => evaluate(datatype, value))
+  					.join('');
   			} else if (datatype === 'null') {
   				return null;
   			}
@@ -2205,9 +2224,9 @@
 
   var index = { parse, entries };
 
-  exports.parse = parse;
-  exports.entries = entries;
   exports.default = index;
+  exports.entries = entries;
+  exports.parse = parse;
 
   Object.defineProperty(exports, '__esModule', { value: true });
 

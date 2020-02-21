@@ -1,6 +1,6 @@
 {
   "name": "bibtex-parse",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "bibtex parser for javascript",
   "homepage": "https://github.com/FlamingTempura/bibtex-parse",
   "main": "bibtex-parse.js",
@@ -10,9 +10,9 @@
     "build": "rollup -c"
   },
   "devDependencies": {
-    "rollup": "^0.62.0",
+    "rollup": "^2.0.2",
     "rollup-plugin-pegjs": "^2.1.3",
-    "tap": "^12.0.1"
+    "tap": "^14.10.6"
   },
   "repository": {
     "type": "git",

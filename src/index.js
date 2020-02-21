@@ -14,32 +14,34 @@ const STRINGS = {
 	sep: 'September',
 	oct: 'October',
 	nov: 'November',
-	dec: 'December',
+	dec: 'December'
 };
 
-export const parse = str => parser.parse(str);
+export const parse = (str, options) => parser.parse(str, options);
 
-const stripMatchingBraces = str => { // remove matching curly braces, excluding escaped braces
-	while(str.match(/(^|[^\\])\{.*?([^\\])\}/s)) {
+const stripMatchingBraces = str => {
+	// remove matching curly braces, excluding escaped braces
+	while (str.match(/(^|[^\\])\{.*?([^\\])\}/s)) {
 		str = str.replace(/(^|[^\\])\{(.*?)([^\\])\}/s, '$1$2$3');
 	}
 	return str;
 };
 
-export const entries = str => {
-	let items = parse(str),
+export const entries = (str, options) => {
+	let items = parse(str, options),
 		entries = [],
-		strings = { ... STRINGS},
+		strings = { ...STRINGS },
 		evaluate = (datatype, value) => {
 			if (datatype === 'number') {
 				return value;
 			} else if (datatype === 'quoted' || datatype === 'braced') {
-				return stripMatchingBraces(value)
-					.replace(/\\(["'%@{}()_])/g, '$1'); // unescape characters
+				return stripMatchingBraces(value).replace(/\\(["'%@{}()_])/g, '$1'); // unescape characters
 			} else if (datatype === 'identifier') {
 				return strings[value] || '';
 			} else if (datatype === 'concatinate') {
-				return value.map(({ datatype, value }) => evaluate(datatype, value)).join('');
+				return value
+					.map(({ datatype, value }) => evaluate(datatype, value))
+					.join('');
 			} else if (datatype === 'null') {
 				return null;
 			}
