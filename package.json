@@ -7,12 +7,15 @@
   "scripts": {
     "test": "rollup -c && tap test",
     "cover": "rollup -c && tap -j6 --cov --coverage-report=lcov test",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "build-peg": "pegjs --plugin ts-pegjs -o src/generated_grammar.ts src/bibtex.pegjs"
   },
   "devDependencies": {
-    "rollup": "^0.62.0",
+    "pegjs": "^0.10.0",
+    "rollup": "^1.31.0",
     "rollup-plugin-pegjs": "^2.1.3",
-    "tap": "^12.0.1"
+    "tap": "^14.10.6",
+    "ts-pegjs": "^0.2.6"
   },
   "repository": {
     "type": "git",
