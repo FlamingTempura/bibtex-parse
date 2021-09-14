@@ -50,7 +50,7 @@ export const entries = (str, options) => {
 		if (item.itemtype === 'string') {
 			strings[item.name] = evaluate(item.datatype, item.value);
 		} else if (item.itemtype === 'entry') {
-			let entry = { key: item.key, type: item.type };
+			let entry = { key: item.key, type: item.type, fileLocation: item.fileLocation };
 			for (let field of item.fields) {
 				entry[field.name.toUpperCase()] = evaluate(field.datatype, field.value);
 			}

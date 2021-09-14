@@ -1,7 +1,7 @@
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
   typeof define === 'function' && define.amd ? define(['exports'], factory) :
-  (global = global || self, factory(global['bibtex-parse'] = {}));
+  (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global['bibtex-parse'] = {}));
 }(this, (function (exports) { 'use strict';
 
   var parser = /*
@@ -208,7 +208,7 @@
           peg$c49 = function(key) { return key; },
           peg$c50 = function(key, first, assignment) { return assignment; },
           peg$c51 = function(key, first, rest) { return [first, ...rest]; },
-          peg$c52 = function(key, fields) { return { key, fields: fields || [] }; },
+          peg$c52 = function(key, fields) { return { key, fields: fields || [], fileLocation: location() }; },
           peg$c53 = peg$otherExpectation("assignment"),
           peg$c54 = "=",
           peg$c55 = peg$literalExpectation("=", false),
@@ -285,6 +285,10 @@
 
       function text() {
         return input.substring(peg$savedPos, peg$currPos);
+      }
+
+      function location() {
+        return peg$computeLocation(peg$savedPos, peg$currPos);
       }
 
       function peg$literalExpectation(text, ignoreCase) {
@@ -2212,7 +2216,7 @@
   		if (item.itemtype === 'string') {
   			strings[item.name] = evaluate(item.datatype, item.value);
   		} else if (item.itemtype === 'entry') {
-  			let entry = { key: item.key, type: item.type };
+  			let entry = { key: item.key, type: item.type, fileLocation: item.fileLocation };
   			for (let field of item.fields) {
   				entry[field.name.toUpperCase()] = evaluate(field.datatype, field.value);
   			}
@@ -2224,7 +2228,7 @@
 
   var index = { parse, entries };
 
-  exports.default = index;
+  exports['default'] = index;
   exports.entries = entries;
   exports.parse = parse;
 

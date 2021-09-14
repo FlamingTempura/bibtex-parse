@@ -90,7 +90,7 @@ ENTRY_BODY
       )*
       { return [first, ...rest]; }
     )? _ ','?
-    { return { key, fields: fields || [] }; }
+    { return { key, fields: fields || [], fileLocation: location() }; }
 
 // An assignment is valid even if no value is given
 ASSIGNMENT "assignment"
