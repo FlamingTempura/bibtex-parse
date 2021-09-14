@@ -44,6 +44,10 @@ output:
   {
     "key": "Smith2009",
     "type": "inproceedings",
+    "fileLocation": {
+      "start": {"offset": 113, "line": 5, "column": 16},
+      "end": {"offset": 227, "line": 11, "column": 1}
+    },
     "AUTHOR": "Woods, Jane",
     "YEAR": 2009,
     "MONTH": "December",
@@ -53,6 +57,10 @@ output:
   {
     "key": "IP:1990",
     "type": "book",
+    "fileLocation": {
+      "start": {"offset": 236, "line": 13, "column": 7},
+      "end": {"offset": 322, "line": 17, "column": 1}
+    },
     "AUTHOR": "Brown, Ian and Woods, Jane",
     "YEAR": "1990",
     "TITLE": "Methods for Research"
@@ -109,21 +117,24 @@ Enclosed can be one of the following:
     "itemtype": "preamble",
     "enclosed": "braces",
     "value": "Reference list",
-    "datatype": "quoted"
+    "datatype": "quoted",
+    "raw": "\"Reference list\""
   },
   { "itemtype": "comment", "comment": "\n" },
   {
     "itemtype": "string",
     "name": "ian",
     "value": "Brown, Ian",
-    "datatype": "quoted"
+    "datatype": "quoted",
+    "raw": "\"Brown, Ian\""
   },
   { "itemtype": "comment", "comment": "\n" },
   {
     "itemtype": "string",
     "name": "jane",
     "value": "Woods, Jane",
-    "datatype": "quoted"
+    "datatype": "quoted",
+    "raw": "\"Woods, Jane\""
   },
   { "itemtype": "comment", "comment": "\n%references\n" },
   {
@@ -132,34 +143,53 @@ Enclosed can be one of the following:
     "enclosed": "braces",
     "key": "Smith2009",
     "fields": [
-      { "name": "author", "value": "jane", "datatype": "identifier" },
-      { "name": "year", "value": 2009, "datatype": "number" },
-      { "name": "month", "value": "dec", "datatype": "identifier" },
+      { "name": "author", "value": "jane", "datatype": "identifier", "raw": "jane" },
+      { "name": "year", "value": 2009, "datatype": "number", "raw": "2009" },
+      { "name": "month", "value": "dec", "datatype": "identifier", "raw": "dec" },
       {
         "name": "title",
         "value": "{Quantum somethings}",
-        "datatype": "braced"
+        "datatype": "braced",
+        "raw": "{{Quantum somethings}}"
       },
-      { "name": "journal", "value": "Journal of {B}lah", "datatype": "braced" }
-    ]
+      { "name": "journal", "value": "Journal of {B}lah", "datatype": "braced", "raw": "{Journal of {B}lah}" }
+    ],
+    "fileLocation": {
+      "start": {"offset": 113, "line": 5, "column": 16},
+      "end": {"offset": 227, "line": 11, "column": 1}
+    },
+    "raw": "@inproceedings{Smith2009,\n  author=jane,\n  year=2009,\n  month=dec,\n  title={{Quantum somethings}},\n  journal={Journal of {B}lah}\n}"
   },
   { "itemtype": "comment", "comment": "\n\n" },
   {
     "itemtype": "entry",
-    "type": "inproceedings",
+    "type": "book",
     "enclosed": "braces",
-    "key": "Smith2009",
+    "key": "IP:1990",
     "fields": [
-      { "name": "author", "value": "jane", "datatype": "identifier" },
-      { "name": "year", "value": 2009, "datatype": "number" },
-      { "name": "month", "value": "dec", "datatype": "identifier" },
+      {
+        "name": "author",
+        "value": [
+          { "value": "ian", "datatype": "identifier", "raw": "ian" },
+          { "value": " and ", "datatype": "quoted", "raw": "\" and \"" },
+          { "value": "jane", "datatype": "identifier", "raw": "jane" }
+        ],
+        "datatype": "concatinate",
+        "raw": "ian # \" and \" # jane"
+      },
+      { "name": "year", "value": "1990", "datatype": "braced", "raw": "{1990}" },
       {
         "name": "title",
-        "value": "{Quantum somethings}",
-        "datatype": "braced"
-      },
-      { "name": "journal", "value": "Journal of {B}lah", "datatype": "braced" }
-    ]
+        "value": "Methods for Research",
+        "datatype": "braced",
+        "raw": "{Methods for Research}"
+      }
+    ],
+    "fileLocation": {
+      "start": {"offset": 236, "line": 13, "column": 7},
+      "end": {"offset": 322, "line": 17, "column": 1}
+    },
+    "raw": "@book{IP:1990,\nauthor = ian # \" and \" # jane,\nyear = {1990},\ntitle = {Methods for Research}\n}"
   }
 ]
 ```
