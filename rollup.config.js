@@ -3,7 +3,7 @@ import pegjs from 'rollup-plugin-pegjs';
 
 export default {
 	input: 'src/index.js',
-	plugins: [pegjs()],
+	plugins: [pegjs({cache: true})],
 	output: {
 		name: 'bibtex-parse',
 		file: 'bibtex-parse.js',
